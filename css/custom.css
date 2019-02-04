@@ -8,6 +8,9 @@
     background-attachment: fixed;
     padding-bottom: 40px;
 }
+.btn{
+    font-size: 14px
+}
 .header.header-internal {
     min-height: auto;
     padding-bottom: 0px;
@@ -22,6 +25,10 @@
 }
 .form-container{
 
+}
+.btn-default {
+    background-color: #dde6c5;
+    color: #1e1e1e;
 }
 .logo-container {
     position: relative;
@@ -214,6 +221,19 @@ nav.navigation.white-nav .moto-widget-menu ul.moto-widget-menu-list li a.moto-wi
     color: #1e1e1e;
     background-color: #adce5f;
     border-color: #c2e276;
+}
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+    color: #333a40;
+    background-color: #97b353;
+    border-color: #97b353;
+}
+.btn-success:not(:disabled):not(.disabled).active:focus,
+.btn-success:not(:disabled):not(.disabled):active:focus,
+.show>.btn-success.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(188, 217, 118, 0.32);
+}
+.btn-success.focus, .btn-success:focus {
+    box-shadow: 0 0 0 0.2rem rgba(188, 217, 118, 0.25);
 }
 .section-title h2 {
     font-family: 'oswald', display;
@@ -492,6 +512,9 @@ ul.social-list li a:hover{
     border-top: 1px solid #f3f3f3;
     padding-top: 15px;
 }
+.form-footer .btn {
+    min-width: 115px;
+}
 .form-content .form-item > label {
     font-weight: 600;
 }
@@ -535,4 +558,19 @@ ul.social-list li a:hover{
     font-size: 15px;
     margin-bottom: 18px;
     color: #333a40;
+}
+.form-container-sm{
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.stepwizard-row {
+    display: none;
+}
+.step-counter h4 {
+    font-size: 14px;
+    margin-bottom: 28px;
+    color: #9a9a9a;
+    border-bottom: 1px solid #f3f3f3;
+    padding-bottom: 12px;
 }
