@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Zamba Dogs - admin</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&amp;subset=latin);
+   </style>
+   <link rel="stylesheet" href="./../fonts/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="./../css/bootstrap.min.css" />
+   <link rel="stylesheet" href="./../css/assets.min.css" />
+   <link rel="stylesheet" href="./../css/styles.css" />
+   <link rel="stylesheet" href="./../css/sidebar.css" />
+   <link rel="stylesheet" href="./../css/custom.css" />
+</head>
+
+<body>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class=" border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading">
+        <a href="#">
+          <img src="./../images/logo-1.png" alt="">
+        </a>
+      </div>
+      <div class="sidebar-menu list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action ">Dashboard</a>
+        <a href="#" class="list-group-item list-group-item-action active">Shortcuts</a>
+        <a href="#" class="list-group-item list-group-item-action">Overview</a>
+        <a href="#" class="list-group-item list-group-item-action">Events</a>
+        <a href="#" class="list-group-item list-group-item-action">Profile</a>
+        <a href="#" class="list-group-item list-group-item-action">Status</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+        <button class="btn btn-success" id="menu-toggle"> Menu</button>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Help</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle user-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-user"></i>  Vijay Yadav
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="main-wrapper">
+        <div class="page-header mt-4">
+          <h1 class="">Page Title</h1>
+          <div class="header-control">
+            <button class="btn btn-success btn-sm">Add Item</button>
+          </div>
+        </div>
+
+        <div class="main-content box-view">
+          <div class="form-container">
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="form-block">
+                           <div class="form-content">
+                             <div class="form-item">
+                               <label for="">Name</label>
+                               <input type="text" class="form-control" placeholder="Please enter name">
+                             </div>
+
+                           </div>
+                         </div>
+                      </div>
+
+                      <div class="col-md-6 ">
+                        <div class="form-block">
+                          <div class="form-content">
+                            <div class="form-item">
+                              <label for="">Email</label>
+                              <input type="text" class="form-control" placeholder="Please enter email">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="form-block">
+                           <div class="form-content">
+                             <div class="form-item">
+                               <label for="">Mobile Number</label>
+                               <input type="text" class="form-control" placeholder="Please enter mobile">
+                             </div>
+
+                           </div>
+                         </div>
+                      </div>
+
+                      <div class="col-md-6 ">
+                        <div class="form-block">
+                          <div class="form-content">
+                            <div class="form-item">
+                              <label for="">City</label>
+                              <input type="text" class="form-control" placeholder="Please enter city">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="form-block">
+                           <div class="form-content">
+                             <div class="form-item">
+                               <label for="">Locality</label>
+                               <input type="text" class="form-control" placeholder="Please enter locality">
+                             </div>
+
+                           </div>
+                         </div>
+                      </div>
+
+                      <div class="col-md-6 ">
+                        <div class="form-block">
+                          <div class="form-content">
+                            <div class="form-item">
+                              <label for="">Street Address</label>
+                              <input type="text" class="form-control" placeholder="Please enter street address">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="form-block">
+                           <div class="form-content">
+                             <div class="form-item">
+                               <label for="">Pin Code</label>
+                               <input type="text" class="form-control" placeholder="Please enter pin">
+                             </div>
+
+                           </div>
+                         </div>
+                      </div>
+
+                      <div class="col-md-6 ">
+                        <div class="form-block">
+                          <div class="form-content">
+                            <div class="form-item">
+                              <label for="">Address Proof</label>
+                              <input type="text" class="form-control" placeholder="Please enter  address">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+
+
+
+                   <div class="row">
+                      <div class="col-md-6 ">
+                         <div class="form-block">
+                           <div class="form-content">
+                             <div class="form-item">
+                               <label for="">Create Password</label>
+                               <input type="password" class="form-control" placeholder="password">
+                             </div>
+
+                           </div>
+                         </div>
+                      </div>
+
+                      <div class="col-md-6 ">
+                        <div class="form-block">
+                          <div class="form-content">
+                            <div class="form-item">
+                              <label for="">Confirm Password</label>
+                              <input type="password" class="form-control" placeholder="password">
+                            </div>
+
+                          </div>
+                        </div>
+                      </div>
+                   </div>
+
+                   <div class="form-footer text-center">
+                     <button class="btn btn-dark">Back to previous step</button>
+                     <button class="btn btn-success">Signup to Zambadogs</button>
+                   </div>
+                 </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./../js/jquery.min.js"></script>
+  <script src="./../js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>

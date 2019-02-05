@@ -9,7 +9,7 @@
     padding-bottom: 40px;
 }
 .btn{
-    font-size: 14px
+
 }
 .header.header-internal {
     min-height: auto;
@@ -498,7 +498,7 @@ ul.social-list li a:hover{
 .form-title h4 {
     font-family: 'oswald', display;
     color: #1e1e1e;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 20px;
 }
 .form-content .form-item {
@@ -559,9 +559,10 @@ ul.social-list li a:hover{
     margin-bottom: 18px;
     color: #333a40;
 }
-.form-container-sm{
-  max-width: 600px;
-  margin: 0 auto;
+.form-container-sm {
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .stepwizard-row {
@@ -569,8 +570,172 @@ ul.social-list li a:hover{
 }
 .step-counter h4 {
     font-size: 14px;
-    margin-bottom: 28px;
+    margin-bottom: 15px;
     color: #9a9a9a;
     border-bottom: 1px solid #f3f3f3;
     padding-bottom: 12px;
+}
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding: 0px 8px;
+}
+.page-header h1 {
+    font-family: 'oswald', display;
+    font-size: 22px;
+    color: #1f1e1e;
+}
+a.user-link i {
+    height: 20px;
+    width: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #b8d76f;
+    border-radius: 50%;
+    background-color: #b8d76f;
+    font-size: 11px;
+    color: #1f1e1e;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.side-bg {
+    background-color: #bad874;
+    background-image: url(./../images/2.png);
+    background-size: cover;
+    background-position: left;
+    position: relative;
+    min-height: 300px;
+}
+.side-bg .side-bg-caption {
+    position: absolute;
+    color: white;
+    width: 100%;
+    background-color: #303e0f4d;
+    left: 0px;
+    padding: 26px;
+    bottom: 0px;
+    padding-left: 26px;
+}
+.side-bg .side-bg-caption h2 {
+    font-family: 'oswald', display;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.side-bg .side-bg-caption p {
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+.box-view.box-no-padder {
+    padding: 0px;
+    overflow: hidden;
+}
+.wizard-wrapper {
+    padding: 20px 10px;
+    min-height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+.wizard-wrapper .setup-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.wizard-wrapper .setup-content .form-block {
+    margin-bottom: 25px;
+    flex: 1;
+}
+.wizard-wrapper  .form-content .form-item {
+    margin-bottom: 15px;
+}
+.img-checkbox {
+    margin-top: 20px;
+}
+.img-checkbox label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 27px;
+}
+.img-checkbox input[type="checkbox"]{
+  display: none;
+}
+.img-checkbox input[type="checkbox"] + img {
+    max-width: 38px;
+    background-color: #b8d76f;
+    border-radius: 6px;
+    filter: grayscale(64%);
+    transition: all ease-in-out 300ms;
+}
+.img-checkbox input[type="checkbox"] + img + i {
+    position: absolute;
+    right: -3px;
+    top: -4px;
+    font-size: 18px;
+    color: #1e1e1e;
+    background-color: #f7f7f7;
+    line-height: 12px;
+    border-radius: 4px;
+}
+.img-checkbox input[type="checkbox"] + img + i::before{
+  content: "\f096";
+}
+.img-checkbox input[type="checkbox"]:checked + img {
+    filter: grayscale(0);
+
+    transform: scale(1.04);
+}
+.img-checkbox input[type="checkbox"]:checked + img + i::before{
+  content: "\f14a";
+}
+.img-checkbox:hover input[type="checkbox"] + img{
+
+}
+.label-text h4 {
+    font-family: 'oswald', display;
+    font-size: 17px;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    color: #1e1e1e;
+}
+.label-text span {
+    font-size: 13.5px;
+    color: #969696;
+}
+.check-img {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    margin-top: 100px;
+}
+.login-header h1 {
+    font-family: 'oswald', display;
+    color: #1e1e1e;
+    margin-bottom: 25px;
+    font-size: 33px;
+    text-shadow: 0px 1px 0px #637539;
+}
+.login-header h1 span {
+    font-weight: 300;
+}
+.login-container .form-group {
+    margin-bottom: 25px;
+}
+.login-container .form-group label {
+    font-weight: 600;
+}
+.top-login-img{
+  height: 0px
+}
+.top-login-img img {
+    max-width: 151px;
+    margin-top: -210px;
 }
