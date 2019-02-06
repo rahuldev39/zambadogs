@@ -498,7 +498,7 @@ ul.social-list li a:hover{
 .form-title h4 {
     font-family: 'oswald', display;
     color: #1e1e1e;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 25px;
 }
 .form-content .form-item {
@@ -613,7 +613,7 @@ a.user-link i {
     position: absolute;
     color: white;
     width: 100%;
-    background-color: #19161673;
+    background-color: #0c0c0c7d;
     left: 0px;
     padding: 16px;
     bottom: 0px;
@@ -622,15 +622,14 @@ a.user-link i {
 }
 .side-bg .side-bg-caption h2 {
     font-family: 'oswald', display;
-    font-size: 24px;
+    font-size: 34px;
     margin-bottom: 8px;
     font-weight: 300;
     color: #b8d76f;
 }
 .side-bg .side-bg-caption p {
-    font-size: 13px;
+    font-size: 16px;
     margin-bottom: 0px;
-    opacity: .8;
 }
 .box-view.box-no-padder {
     padding: 0px;
@@ -638,7 +637,7 @@ a.user-link i {
 }
 .wizard-wrapper {
     padding: 20px 10px;
-    min-height: 430px;
+    min-height: 450px;
     display: flex;
     flex-direction: column;
 }
@@ -651,8 +650,8 @@ a.user-link i {
     margin-bottom: 15px;
     flex: 1;
 }
-.wizard-wrapper  .form-content .form-item {
-    margin-bottom: 15px;
+.wizard-wrapper .form-content .form-item {
+    margin-bottom: 12px;
 }
 .img-checkbox {
     margin-top: 20px;
@@ -699,13 +698,13 @@ a.user-link i {
 }
 .label-text h4 {
     font-family: 'oswald', display;
-    font-size: 17px;
+    font-size: 19px;
     margin-top: 2px;
     margin-bottom: 3px;
     color: #1e1e1e;
 }
 .label-text span {
-    font-size: 13.5px;
+    font-size: 15px;
     color: #969696;
 }
 .check-img {
@@ -743,6 +742,7 @@ a.user-link i {
     max-width: 151px;
     margin-top: -210px;
 }
-.wizard-wrapper .form-content .form-item label{
-  font-size: 17px
+.wizard-wrapper .form-content .form-item label {
+    font-size: 18px;
+    line-height: 20px;
 }
