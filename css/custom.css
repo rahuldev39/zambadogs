@@ -498,8 +498,8 @@ ul.social-list li a:hover{
 .form-title h4 {
     font-family: 'oswald', display;
     color: #1e1e1e;
-    font-size: 22px;
-    margin-bottom: 20px;
+    font-size: 24px;
+    margin-bottom: 25px;
 }
 .form-content .form-item {
     margin-bottom: 8px;
@@ -603,9 +603,9 @@ a.user-link i {
 }
 .side-bg {
     background-color: #bad874;
-    background-image: url(./../images/2.png);
+    background-image: url(./../images/login-bg3.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: center;
     position: relative;
     min-height: 300px;
 }
@@ -613,20 +613,24 @@ a.user-link i {
     position: absolute;
     color: white;
     width: 100%;
-    background-color: #303e0f4d;
+    background-color: #19161673;
     left: 0px;
-    padding: 26px;
+    padding: 16px;
     bottom: 0px;
     padding-left: 26px;
+    padding-right: 26px;
 }
 .side-bg .side-bg-caption h2 {
     font-family: 'oswald', display;
     font-size: 24px;
     margin-bottom: 8px;
+    font-weight: 300;
+    color: #b8d76f;
 }
 .side-bg .side-bg-caption p {
     font-size: 13px;
     margin-bottom: 0px;
+    opacity: .8;
 }
 .box-view.box-no-padder {
     padding: 0px;
@@ -644,7 +648,7 @@ a.user-link i {
     flex-direction: column;
 }
 .wizard-wrapper .setup-content .form-block {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     flex: 1;
 }
 .wizard-wrapper  .form-content .form-item {
@@ -738,4 +742,7 @@ a.user-link i {
 .top-login-img img {
     max-width: 151px;
     margin-top: -210px;
+}
+.wizard-wrapper .form-content .form-item label{
+  font-size: 17px
 }
