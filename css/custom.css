@@ -608,27 +608,39 @@ a.user-link i {
     background-position: center;
     position: relative;
     min-height: 300px;
+    flex-basis: 310px;
+    margin-right: 50px;
+}
+.side-bg::after {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background-color: #b1d265a1;
 }
 .side-bg .side-bg-caption {
     position: absolute;
     color: white;
     width: 100%;
-    background-color: #0c0c0c7d;
     left: 0px;
     padding: 16px;
     bottom: 0px;
     padding-left: 26px;
     padding-right: 26px;
+    z-index: 1
 }
 .side-bg .side-bg-caption h2 {
     font-family: 'oswald', display;
-    font-size: 34px;
+    font-size: 30px;
     margin-bottom: 8px;
-    font-weight: 300;
-    color: #b8d76f;
+    font-weight: 500;
+    color: #040404;
+    text-shadow: 2px 1px 0px #c2d29c;
 }
 .side-bg .side-bg-caption p {
-    font-size: 16px;
+    font-size: 14.7px;
     margin-bottom: 0px;
 }
 .box-view.box-no-padder {
@@ -743,6 +755,6 @@ a.user-link i {
     margin-top: -210px;
 }
 .wizard-wrapper .form-content .form-item label {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 20px;
 }
