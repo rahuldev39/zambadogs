@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <title>Zamba Dogs - admin</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <style>
+      @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&amp;subset=latin);
+   </style>
+   <link rel="stylesheet" href="./../fonts/font-awesome/css/font-awesome.min.css" />
+   <link rel="stylesheet" href="./../css/bootstrap.min.css" />
+   <link rel="stylesheet" href="./../css/assets.min.css" />
+   <link rel="stylesheet" href="./../css/styles.css" />
+   <link rel="stylesheet" href="./../css/sidebar.css" />
+   <link rel="stylesheet" href="./../css/datatables.css" />
+   <link rel="stylesheet" href="./../css/perfect-scrollbar.css" />
+   <link rel="stylesheet" href="./../css/custom.css" />
+</head>
+
+<body>
+
+  <section class="content content-page-internal">
+
+            <div class="section moto-spacing-top-large  admin-login">
+               <div class="container">
+
+
+                 <div class="form-container box-view login-container">
+
+                   <div class="top-login-img">
+                     <img src="./../images/login-dog.png" alt="">
+                   </div>
+
+                   <div class="login-header text-center">
+                      <h1>Sign In to <span>Zamba Dogs</span></h1>
+                   </div>
+
+                   <div class="login-content">
+                     <div class="form-group">
+                       <label>Email</label>
+                       <input type="text" class="form-control" placeholder="Email Address">
+                     </div>
+                     <div class="form-group">
+                       <label>Password</label>
+                       <input type="password" class="form-control" placeholder="Password">
+                     </div>
+                     <div class="form-group">
+                      <button class="btn btn-success btn-lg btn-block">Sign In</button>
+                     </div>
+                   </div>
+
+
+
+
+
+
+
+                 </div>
+
+
+               </div>
+            </div>
+         </section>
+
+  <!-- /#wrapper -->
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="./../js/jquery.min.js"></script>
+  <script src="./../js/bootstrap.bundle.min.js"></script>
+  <script src="./../js/datatables.min.js"></script>
+  <script src="./../js/perfect-scrollbar.min.js"></script>
+  <!-- Menu Toggle Script -->
+  <script>
+    $("#menu-toggle").click(function(e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+  <script type="text/javascript">
+      $(document).ready( function () {
+      $('#DataTables_Table').DataTable();
+    } );
+  </script>
+
+  <script type="text/javascript">
+    const ps = new PerfectScrollbar('#sidebar-menu');
+  </script>
+
+</body>
+
+</html>

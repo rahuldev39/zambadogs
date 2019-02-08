@@ -18,6 +18,11 @@ body {
     -moz-transition: margin .25s ease-out;
     -o-transition: margin .25s ease-out;
     transition: margin .25s ease-out;
+    position: fixed;
+    height: 100vh;
+    z-index: 1000;
+    top: 0px;
+    background-color: white;
 }
 
 #sidebar-wrapper .sidebar-heading {
@@ -37,7 +42,8 @@ body {
 #page-content-wrapper {
     min-width: 100vw;
     background-color: #eaeeef;
-    padding-right: 17px
+    padding-right: 17px;
+    transition: margin .25s ease-out;
 }
 #page-content-wrapper .navbar {
   background-color: white
@@ -66,10 +72,11 @@ position: relative;
     left: 0px;
     top: 0px;
 }
+.toggled #page-content-wrapper{
+  margin-left: 0px;
+}
 @media (min-width: 768px) {
-  #page-content-wrapper .navbar #menu-toggle {
-    display:none;
-  }
+
   #sidebar-wrapper {
     margin-left: 0;
   }
@@ -77,8 +84,10 @@ position: relative;
   #page-content-wrapper {
     min-width: 0;
     width: 100%;
-      padding-right:0px
-  }
+    padding-right: 0px;
+    margin-left: 12rem;
+    transition: margin .25s ease-out;
+}
 
   #wrapper.toggled #sidebar-wrapper {
     margin-left: -12rem;

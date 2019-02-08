@@ -758,3 +758,74 @@ a.user-link i {
     font-size: 17px;
     line-height: 20px;
 }
+.sidebar-menu .nav-item .dropdown-menu {
+    position: static !important;
+    transform: none !important;
+    border: 0px;
+    font-size: 13px;
+    border-radius: 0px;
+}
+.sidebar-menu .nav-item a.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 0;
+}
+.sidebar-menu .nav-item .dropdown-menu a {
+    white-space: initial;
+    font-size: 12px;
+    color: #6d6b6b;
+    padding-left: 31px;
+}
+.sidebar-menu .nav-item .dropdown-menu a:active{
+      background-color: #f8f9fa
+}
+.sidebar-menu .nav-item.show a.list-group-item {
+    background-color: #1e1e1e;
+    color: #bad874;
+}
+.table thead th {
+    border-bottom: 2px solid #bad874;
+    white-space: nowrap;
+    outline: none;
+}
+.page-item.active .page-link {
+    color: #080808;
+    background-color: #bad874;
+    border-color: #99b35e;
+}
+.table-footer-control {
+    position: fixed;
+    bottom: 0px;
+    width: calc(100% - 12rem);
+    text-align: center;
+    margin-left: -46px;
+    background-color: #1f1e1ee0;
+    padding: 12px 0px;
+    border-top: 1px solid #dee2e6;
+    z-index: 10000;
+  transition: margin .25s ease-out;
+}
+.toggled .table-footer-control{
+  width: 100%
+}
+.table-container{
+  margin-bottom: 40px
+}
+#sidebar-menu {
+    position: relative;
+    height: calc(100vh - 126px);
+}
+.admin-login {
+    min-height: 100vh;
+    background-image: url(./../images/dogs-pattern-vector.png);
+    background-color: #8a8a8a;
+}
+@media (max-width: 768px) {
+  .table-footer-control{
+    width: 100%
+  }
+  .toggled #page-content-wrapper {
+    margin-left: 12rem
+}
+}
