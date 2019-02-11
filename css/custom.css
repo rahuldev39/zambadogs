@@ -886,7 +886,13 @@ table.dataTable tbody tr.shown .open-row {
 table.dataTable tbody tr.shown .open-row::before{
   content: "\f056";
 }
+@media (min-width: 768px) {
+  table.dataTable {
+    width: 100% !important;
+}
+}
 @media (max-width: 768px) {
+
   .table-footer-control{
     width: 100%
   }
