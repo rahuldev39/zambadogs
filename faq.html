@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="website">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="utf-8">
+      <title>Zamba Dogs</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&amp;subset=latin);
+      </style>
+      <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="./css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./css/assets.min.css" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="stylesheet" href="./css/custom.css" />
+   </head>
+   <body>
+      <div class="page">
+         <header class="header header-internal" >
+           <nav class="navigation white-nav">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-sm-3">
+                       <div class="logo-container">
+                         <img src="./images/logo-1.png" alt="" class="logo-img">
+                       </div>
+                    </div>
+                    <div class="col-sm-9">
+                       <div class="moto-widget-menu moto-preset-default moto-align-right moto-align-center_mobile-h ">
+                          <a href="#" class="moto-widget-menu-toggle-btn">
+                            <i class="moto-widget-menu-toggle-btn-icon fa fa-bars"></i>
+                          </a>
+                          <ul class="moto-widget-menu-list moto-widget-menu-list_horizontal">
+                             <li class="moto-widget-menu-item">
+                                <a href="index.html" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-active">Home</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Our Services</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Help</a>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign Up <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign In <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                          </ul>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </nav>
+         </header>
+
+
+         <section class="content content-page-internal" >
+
+            <div class="section moto-spacing-top-large  moto-spacing-bottom-large ">
+               <div class="container">
+
+
+                 <div class="box-view  faq-box">
+
+                   <div class="">
+
+                   </div>
+
+                   <div class="row">
+                  <div class="col-3">
+                    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                      <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">FAQ's for Dog Host</a>
+                      <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">FAQ’s for Dog Parents</a>
+                      <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Checklist</a>
+                    </div>
+                  </div>
+                  <div class="col-9">
+                    <div class="tab-content" id="v-pills-tabContent">
+                      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+                        <div class="faq-title">
+                          <h4>FAQ's for Dog Host</h4>
+                          <p>This is a wonderful opportunity for dog lovers to make some money and at the same time, enjoy the company of loving, furry friends for their preferred period of time!</p>
+                        </div>
+
+                        <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How do I know I qualify to become a host?
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                              Anyone who loves dogs and has experience caring for them- currently or in the past, can become a host.
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                What if I love dogs but don’t have any experience with them?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                            If you don’t have any previous experience, we recommend you begin with one of our short-term options to see how comfortable you are. You could start by signing up for being a Day Care provider or a Fun Buddy first, before taking responsibilities for a longer period of time.
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              What should I do to become a loving host and earn some money?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>You can start hosting in three easy steps:</p>
+                            <ul>
+                              <li>Express your willingness by signing up under our ‘Become a Host’ section.</li>
+                              <li>Fill up your details in the form.</li>
+                              <li>Have an at-home meeting with our Customer Care Executive.</li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingfour" aria-expanded="false" aria-controls="headingfour">
+                              What will the Customer Care Executive verify when they meet with me?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingfour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>He will verify the information you shared with us, as well as share tips on how you can appropriately host dogs in your home. Verification would also assure you of your upcoming hosting experience and guarantees the dog parents of your readiness to host their dog. </p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingfive" aria-expanded="false" aria-controls="headingfive">
+                            Can I choose the kind of dogs I want to host?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingfive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>Yes, you can. You can choose the size or breed of dogs you will be comfortable hosting.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingsix" aria-expanded="false" aria-controls="headingsix">
+                            Can I choose the kind of dogs I want to host?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingsix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>Yes, you can. You can choose the size or breed of dogs you will be comfortable hosting.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingseven" aria-expanded="false" aria-controls="headingseven">
+                            Why is it important for the dog parents and the dog to visit you in advance?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>We encourage you to meet your guest dog beforehand so that you can get acquainted with him/her in the presence of the owner. This will make the transition smoother. Plus, if you already have dog(s), this would also help you understand if they will all get along well.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingeight" aria-expanded="false" aria-controls="headingeight">
+                            How are payments processed? When can I expect payment for the services I have provided?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>Once your hosting period has ended, we will transfer the amount to you within 4 days, using your preferred payment method, after deducting a 15% service charge. The service charge is towards running the business and attracting more customers to enrol with Zamba dogs so that you may get more business in the future. In case of any delay please reach out to our Customer care executive.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingnine" aria-expanded="false" aria-controls="headingnine">
+                            What do I do if there is an emergency?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingnine" class="collapse" aria-labelledby="headingnine" data-parent="#accordionExample">
+                            <div class="card-body">
+                            <p>In case there is a medical emergency, the dog parent(s) should be informed of the same at the earliest. You should reach out to the Vet recommended by them when they dropped their dog off. In case you are unable to reach out to the recommended Vet, our 24X7 Woof Care team will help you with other options in your area. In case of any other emergency, please inform the Dog parent and the emergency contact that has been provided. You may also please contact our Woof Care team for further assistance.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingten" aria-expanded="false" aria-controls="headingten">
+                            Can I cancel a reservation?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingten" class="collapse" aria-labelledby="headingten" data-parent="#accordionExample">
+                            <div class="card-body">
+                          <p>We understand you may need to cancel a reservation due to some unforeseen circumstances. But this may mean a major disruption for the dog parent as he/she would have made travel plans based on your confirmation. Under such circumstances, we request you to ensure the following:</p>
+                          <ul>
+                            <li>Cancel the booking on the calendar so that the dog parent and we get to know of the cancellation.</li>
+                            <li>Cancellations prior to a week will allow us to make alternate arrangements.</li>
+                            <li>Cancellation with notice of fewer than three days is liable to attract a penalty of Rs.250/- for Cozy Homes and Rs.50/- for other services, along with a negative rating. The amount will be deducted from your account.</li>
+                            <li>Cancellation with less than a day will attract a penalty of 1 days service and will be deducted from your account. Repeat offenders will be blacklisted.</li>
+                          </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingeleven" aria-expanded="false" aria-controls="headingeleven">
+                            What do I do in case the customer is late to pick up a dog?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingeleven" class="collapse" aria-labelledby="headingeleven" data-parent="#accordionExample">
+                            <div class="card-body">
+                        <p>If the customer is late, you can add charges based on your daily rates. In case of a huge delay, please call our 24X7 Customer Care and allow us to help you.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingtweleve" aria-expanded="false" aria-controls="headingtweleve">
+                            Any other useful tips around hosting a dog?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingtweleve" class="collapse" aria-labelledby="headingtweleve" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <ul>
+                              <li>Don’t keep dogs tied or locked up.</li>
+                              <li>Don’t leave dogs alone for more than two hours.</li>
+                              <li>Take the dogs for walks as per schedule. Keep them leashed while doing so.</li>
+                              <li>Ensure the dog gets food and water on time.</li>
+                              <li>Don’t leave the guest dog unsupervised with your family dog until they get used to each other.</li>
+                              <li>Treat the guest dog with kindness and care.</li>
+                              <li>Check our tutorials for more details on caring for and grooming a dog.</li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+                      </div>
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                        <div class="faq-title">
+                          <h4>FAQ’s for Dog Parents</h4>
+                          <p>This is a wonderful opportunity for dog lovers to make some money and at the same time, enjoy the company of loving, furry friends for their preferred period of time!</p>
+                        </div>
+
+                        <div class="accordion" id="accordionExample2">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Why Zamba dogs?
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample2">
+                            <div class="card-body">
+                              <p>Three key reasons why you should think of us:</p>
+                              <ul>
+                                <li>We work only with dog lovers. All our hosts are verified for authenticity and reliability by our team to ensure that they are capable of being loving, have adequate experience with taking care of dogs and are certified by us in elementary dog care.</li>
+                                <li>We try our best to establish the best possible relationship between you and potential dog hosts who would love to open their homes and hearts to your dog.</li>
+                                <li>To facilitate a totally dependable support system for your dog, our Woof Care team is always at the ready, 24x7, to lend a helping hand so that you can have a stress-free time away, knowing your dog is well looked after.</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How does it work?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample2">
+                            <div class="card-body">
+                              <ul style="padding-left: 0px;">
+                                <li>Register yourself by filling in your details on the Zamba Dogs website.</li>
+                                <li>Go through the host profiles and select two or three potential hosts based on the services you need:
+                                  <ul>
+                                    <li>Cozy homes, for when you are away for an extended period of time.</li>
+                                    <li>Daycare for day-long services for more than 6 hours a day.</li>
+                                    <li>Fun Buddy for dog sitting services for up to 4-5 hours during the day or in the evening. </li>
+                                  </ul>
+                                </li>
+                                <li>Whenever you need our services, check for your favourite host's availability on the calendar and place a request. (As is understandable, the earlier a notice you give, the better)</li>
+                                <li>Once the host accepts your request, set up a meeting with him and your dog too. We strongly encourage you to meet the hosts at their homes before you plan ahead. This will reassure you of the safety of the environment and its congeniality.</li>
+                                <li>Pay and confirm booking with Zamba Dogs. You can now relax in peace with the assurance that your dog will be well taken care of, while you are away.</li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Is it safe to book a host through Zamba Dogs?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample2">
+                            <div class="card-body">
+                            <p>Zamba Dogs goes to great lengths to ensure that only genuine dog lovers are part of our community. We have a stringent system in place to authenticate and verify hosts through an expert support team so that you can rest easy knowing that your dog is in safe hands. This support team keeps all boxes checked related to your dog's safety and well being. They also guide and coach the host families if needed.</p>
+                            <p>However, despite the best efforts Zamba Dogs cannot guarantee the safety of the host's home. It is up to you to ensure that your host's arrangements are up to your satisfaction. Zamba Dogs will not be liable for any accidents/mishaps during the tenure of your dog's stay. </p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingfour" aria-expanded="false" aria-controls="headingfour">
+                            Is it important for the dog parent and the dog to meet the host?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingfour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample2">
+                            <div class="card-body">
+                            <p>We strongly encourage you to meet the hosts at their homes before you plan ahead. </p>
+                            <ul>
+                            <li>This will reassure you of the safety of the environment and its congeniality. </li>
+                            <li>If the host too has a dog, this would be a good time to see if they'll get along.</li>
+                            <li>This would also be an excellent opportunity to brief the host about your dog, especially regarding key aspects such as daily routines, walking, feeding, supplements, temperament and other health matters if any.</li>
+                            <li>We would also encourage you to share your regular Vet’s contact details with the host.</li>
+                          </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingfive" aria-expanded="false" aria-controls="headingfive">
+                            How long will it take me to find a host? Can I make a booking in a day or two in case of an emergency?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingfive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample2">
+                            <div class="card-body">
+                            <p>Ideally, you should start looking for a host at least 2 weeks prior to the dates you'd like to block. The whole process might take about a week. Hosts also need time to prepare their home to welcome the guest. However, in case of an emergency, you can make a booking within a day or two with the help of the Zamba Dogs support team at a special premium.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingsix" aria-expanded="false" aria-controls="headingsix">
+                            Can I speak or see my dog while I am away?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingsix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample2">
+                            <div class="card-body">
+                            <p>Sure you can! You can fix a time for a call with your host to find out how your dog is doing. You can even arrange for a video call if you're missing him too much.</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingseven" aria-expanded="false" aria-controls="headingseven">
+                            What happens in case of a medical emergency?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample2">
+                            <div class="card-body">
+                            <p>All of us at Zamba Dogs want you to remain stress-free while you are away from your dog. Which is why we have procedures in place to tackle any given medical emergencies.</p>
+                            <p>If one were to arise during the duration of your dog's stay, the host would inform you about the same and take him to the Vet of your recommendation. In case your Vet is not available the Zamba Dogs Woof Care team will help the host locate the closest option. We will also be contacting the person you've registered as an emergency contact so that they can have a first-hand understanding of the situation.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingeight" aria-expanded="false" aria-controls="headingeight">
+                            How much do we pay and how is the payment processed?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingeight" class="collapse" aria-labelledby="headingeight" data-parent="#accordionExample2">
+                            <div class="card-body">
+                          <p>The rates vary for different hosts, based on their ratings which are displayed in their profile. It also varies depending on the facilities provided, the experience of the host and reviews. </p>
+                          <p>To confirm a reservation, you have to pay the total charges applicable through Zamba Dogs using a Credit Card, Net Banking or via Mobile wallets. We will settle the account with the host at the end of the stay.
+
+</p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingnine" aria-expanded="false" aria-controls="headingnine">
+                            Can I cancel a reservation?
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingnine" class="collapse" aria-labelledby="headingnine" data-parent="#accordionExample2">
+                            <div class="card-body">
+                            <p>We understand that plans may change and you may have to cancel a reservation. Under such circumstances, we encourage you to make the cancellation as early as possible as the hosts would have blocked dates exclusively for your dog.</p>
+                            <p>Cancellation charges as indicated by the host and other finance charges would be deducted and the remaining amount would be refunded to you within 4 business days.
+</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+                      </div>
+
+                      </div>
+                      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+
+                        <div class="faq-title">
+                          <h4>Checklist</h4>
+                          <p>Before leaving your dog with a host it is a good idea to go through this check list and ensure that everything is taken care of.</p>
+                        </div>
+
+                        <div class="accordion" id="accordionExample3">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Food (in writing)
+                              </button>
+                            </h2>
+                          </div>
+
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample3">
+                            <div class="card-body">
+                              <ul>
+                              <li>Timing</li>
+                              <li>Type</li>
+                              <li>Quantity</li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Personal belongings
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample3">
+                            <div class="card-body">
+                              <ul>
+                              <li>Bowls</li>
+                              <li>Leash</li>
+                              <li>Matress</li>
+                              <li>Toys</li>
+                              <li>Grooming kit</li>
+                              <li>Any other</li>
+                             </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" id="headingThree">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              Any other comments
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample3">
+                            <div class="card-body">
+                              <p>It is a good idea for the host to ensure that you are able to access the following from the Dog
+      Parents Profile; else take it in writing from them.</p>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingfour" aria-expanded="false" aria-controls="headingfour">
+                            Veterinarian
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingfour" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample3">
+                            <div class="card-body">
+                              <ul>
+                                <li>Name</li>
+                                <li>Address</li>
+                                <li>Contact No</li>
+
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingfive" aria-expanded="false" aria-controls="headingfive">
+                            Emergency Contact
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingfive" class="collapse" aria-labelledby="headingfive" data-parent="#accordionExample3">
+                            <div class="card-body">
+                              <ul>
+                              <li>Name</li>
+                              <li>Address</li>
+                              <li>Contact No</li>
+
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="card">
+                          <div class="card-header" >
+                            <h2 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#headingsix" aria-expanded="false" aria-controls="headingsix">
+                            Contact details
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="headingsix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample3">
+                            <div class="card-body">
+                              <ul>
+                              <li>Mobile No</li>
+                              <li>Email id</li>
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+
+
+
+
+
+
+
+
+                      </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                 </div>
+
+
+               </div>
+            </div>
+         </section>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-top-text">
+                <h4>Get cute puppies in your inbox</h4>
+                <p>By providing my e-mail address, you can get notification</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-top-form">
+                  <div class="email-form">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <button class="btn btn-dark">Submit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>About Zamba Dogs</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <p>
+                    We know your dogs mean a lot to you. That’s why we take the utmost care to ensure that our hosts will love them as much as you do.
+                    <a href="#">Read More..</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Social Link</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <ul class="social-list">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Important Links</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+                    <li>
+                      <a href="#">Read Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Book Host</a>
+                    </li>
+                    <li>
+                      <a href="#">Sit a Dog, Save a Life</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Legal</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Term of Use</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Need Help?</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Address</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <p>Hobbes Dog Care Technologies Pvt. Ltd<br>
+                       A1-902, Uniworld City, Sector 30, <br>
+                      Gurgaon 122001</p>
+                    </li>
+                    <li>
+                      <p>
+                				<span class="blockd">+91 9600578072</span><br>
+                				<span class="blockd">woofcare@zambadogs.com</span><br>
+                				<span class="blockd">www.zambadogs.com</span>
+                			</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bootom text-center">
+          <p>© 2019 Zambadogs.com. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+      <div data-moto-back-to-top-button class="moto-back-to-top-button">
+         <a href="#" ng-click="toTop($event)" class="moto-back-to-top-button-link">
+         <span class="moto-back-to-top-button-icon fa"></span>
+         </a>
+      </div>
+
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>

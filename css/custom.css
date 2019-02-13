@@ -886,6 +886,249 @@ table.dataTable tbody tr.shown .open-row {
 table.dataTable tbody tr.shown .open-row::before{
   content: "\f056";
 }
+.booking-container{
+  max-width: 850px;
+  margin: 0 auto;
+}
+.booking-container ul.nav {
+    margin-bottom: 16px;
+}
+.booking-container .form-control{
+  font-size: 13px;
+  height: 40px !important
+}
+.booking-container label.form-label{
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.booking-container .nav-pills .nav-link {
+    border: 1px solid #e0e0e0;
+    margin-right: 12px;
+    color: #a9a5a5;
+    padding: 10px 25px;
+}
+.booking-container .nav-pills .nav-link:hover{
+  color: black
+}
+.booking-container .nav-pills .nav-link.active, .booking-container .nav-pills .show>.nav-link {
+    color: #403e3e;
+    background-color: #ffffff;
+    position: relative;
+    border: 1px solid #bad874;
+}
+.booking-container .nav-pills .nav-link i {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.booking-container .nav-pills .nav-link.active i {
+    color: #9ebb5b;
+}
+.booking-container .nav-pills .nav-link.active::after {
+    position: absolute;
+    top: -1px;
+    left: 0;
+    right: 0;
+    height: 4px;
+    border-top: 3px solid #bad874;
+    border-radius: 4px;
+    content: "";
+}
+.row-lopad{
+  margin-right: -5px;
+    margin-left: -5px;
+}
+.row-lopad > div{
+  padding-right: 5px;
+    padding-left: 5px;
+}
+.input-wirh-icon{
+  position: relative;
+}
+.input-wirh-icon .form-control {
+    padding-right: 25px;
+}
+.input-wirh-icon span {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+    color: #c1c1c1;
+    pointer-events: none;
+}
+.datepicker table tr th, .datepicker table tr td {
+    padding: 6px 10px;
+    font-size: 13px;
+}
+.datepicker.datepicker-dropdown{
+  padding-left: 4px;
+  padding-right: 4px
+}
+.datepicker table tr th.prev, .datepicker table tr th.next {
+    color: #8eab4a;
+    font-size: 17px;
+}
+.datepicker table tr td.active.active {
+    background-image: none;
+    background-color: #b5d667 !important;
+    color: #1f1f1f;
+}
+.datepicker table tr td.today,
+.datepicker table tr td.today:active,
+.datepicker table tr td.today:hover  {
+    background-image: none;
+    background-color: #1e1e1e !important;
+    color: white !important;
+}
+.card-header {
+    font-family: 'oswald', display;
+    font-weight: 400;
+    font-size: 17px;
+    color: #424242;
+}
+.header-sm {
+    min-height: 350px;
+}
+.header-sm .banner-main {
+    padding-top: 120px;
+}
+.about-us-container{
+  max-width: 700px;
+  margin: 0 auto;
+}
+.white-bg{
+  background-color: white
+}
+.member-section {
+    display: flex;
+    margin-bottom: 60px;
+}
+.member-section .member-thumb {
+    margin-right: 25px;
+}
+
+.member-section .member-thumb img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+.member-section .member-detail{
+
+}
+.member-section .member-detail .title {
+    margin-bottom: 11px;
+}
+.member-section .member-detail h4 {
+    font-family: 'oswald', display;
+    font-weight: 400;
+    font-size: 20px;
+    color: #1e1e1e;
+    margin-bottom: 2px;
+}
+.member-section .member-detail span {
+    color: #a5a5a5;
+}
+.member-section .member-detail p {
+    text-align: justify;
+}
+.header-about {
+    background-image: url(./../images/about-bg.jpg);
+    background-position: center;
+    background-attachment: scroll;
+}
+.terms-policy-box,.faq-box{
+  margin-top: 30px
+}
+.terms-policy-box h3 {
+    font-family: 'oswald', display;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 10px;
+    color: #1f1e1e;
+}
+.terms-policy-box h4 {
+    font-family: 'oswald', display;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: #1e1e1e;
+    margin-top: 25px;
+}
+.terms-policy-box ul {
+    padding-left: 35px;
+}
+.terms-policy-box ul li{
+  margin-bottom: 15px
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #1f1e1e;
+    background-color: #c2dc85;
+}
+.nav-pills .nav-link{
+  color: #858788;
+}
+.accordion .card {
+    margin-bottom: 18px;
+    border: 0px;
+}
+.accordion .card .card-header {
+    font-family: inherit;
+    padding: 0px;
+    background-color: white;
+
+}
+.accordion .card .card-header h2{
+
+}
+
+.accordion .card .card-header h2 .btn {
+    padding: 9px 0px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: #545454;
+    font-size: 16px;
+    position: relative;
+    padding-left: 35px;
+    white-space: normal;
+    text-decoration: none;
+}
+.accordion .card .card-header h2 .btn:after {
+    content: "";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f056";
+    position: absolute;
+    left: 0px;
+    top: 13px;
+    font-size: 17px;
+    color: black;
+}
+.accordion .card .card-header h2 .btn.collapsed:after {
+
+    content: "\f055";
+    color: #9ab758;
+}
+.accordion .card .card-header h2 .btn:not(.collapsed) {
+    font-weight: 700;
+}
+.accordion .card-body {
+    padding: 16px 0px;
+    color: #7b7a7a;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15px;
+}
+.faq-title {
+    margin-bottom: 27px;
+}
+.faq-title h4 {
+    font-family: oswald;
+    color: #1f1e1e;
+    font-size: 29px;
+    margin-bottom: 7px;
+}
+.faq-title p {
+    color: #929090;
+}
 @media (min-width: 768px) {
   table.dataTable {
     width: 100% !important;
