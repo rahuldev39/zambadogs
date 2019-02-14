@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="website">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="utf-8">
+      <title>Zamba Dogs</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&amp;subset=latin);
+      </style>
+      <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="./css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./css/assets.min.css" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="stylesheet" href="./css/custom.css" />
+   </head>
+   <body>
+      <div class="page">
+         <header class="header header-internal" >
+           <nav class="navigation white-nav">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-sm-3">
+                       <div class="logo-container">
+                         <img src="./images/logo-1.png" alt="" class="logo-img">
+                       </div>
+                    </div>
+                    <div class="col-sm-9">
+                       <div class="moto-widget-menu moto-preset-default moto-align-right moto-align-center_mobile-h ">
+                          <a href="#" class="moto-widget-menu-toggle-btn">
+                            <i class="moto-widget-menu-toggle-btn-icon fa fa-bars"></i>
+                          </a>
+                          <ul class="moto-widget-menu-list moto-widget-menu-list_horizontal">
+                             <li class="moto-widget-menu-item">
+                                <a href="index.html" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-active">Home</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Our Services</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Help</a>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign Up <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign In <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                          </ul>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </nav>
+         </header>
+
+
+         <section class="content content-page-internal" >
+
+            <div class="section moto-spacing-top-large  moto-spacing-bottom-large ">
+                <div class="listing-page">
+                    <div class="listing-page-inner">
+                      <div class="filter-box booking-container">
+                        <div class="card-body">
+                          <ul class="nav nav-pills" id="myTab" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+
+                                Cozy Homes
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="day-tab" data-toggle="tab" href="#day" role="tab" aria-controls="day" aria-selected="false">
+
+                                Day Care
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="fun-tab" data-toggle="tab" href="#fun" role="tab" aria-controls="fun" aria-selected="false">
+
+                                Fun Buddy
+                              </a>
+                            </li>
+                           </ul>
+                           <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                              <div class="booking-form">
+                                <div class="row row-lopad">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="form-label">Dog Boarding near</label>
+                                      <input type="text" class="form-control" placeholder="Zip Code or Address">
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-12">
+                                      <label class="form-label">For these days</label>
+                                    <div class="row row-lopad">
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <div class="input-wirh-icon" >
+                                            <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick Up">
+                                            <span class="fa fa-calendar"></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <div class="input-wirh-icon" >
+                                            <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Drop Off">
+                                            <span class="fa fa-calendar"></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="row row-lopad">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="form-label">Per Dog Per Day</label>
+                                      <select type="text" class="form-control" name="rate">
+                                        <option>--Select Rate--</option>
+                                        <option value="600,799">600 - 799</option>
+                                        <option value="800,999">800 - 999</option>
+                                        <option value="1000,1199">1000 - 1199</option>
+                                        <option value="1200,20000">1200 Onwards</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12 d-flex flex-column justify-content-end">
+                                        <button class="btn btn-success btn-block">Search</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="day" role="tabpanel" aria-labelledby="day-tab">
+                              <div class="booking-form">
+                                <div class="row row-lopad">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="form-label">Dog Boarding near</label>
+                                      <input type="text" class="form-control" placeholder="Zip Code or Address">
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-12">
+                                      <label class="form-label">For these days</label>
+                                    <div class="row row-lopad">
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <div class="input-wirh-icon" >
+                                            <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick Up">
+                                            <span class="fa fa-calendar"></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <div class="input-wirh-icon" >
+                                            <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Drop Off">
+                                            <span class="fa fa-calendar"></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="row row-lopad">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="form-label">Per Dog Per Day</label>
+                                      <select type="text" class="form-control" name="rate">
+                                        <option>--Select Rate--</option>
+                                        <option value="600,799">600 - 799</option>
+                                        <option value="800,999">800 - 999</option>
+                                        <option value="1000,1199">1000 - 1199</option>
+                                        <option value="1200,20000">1200 Onwards</option>
+                                      </select>
+                                    </div>
+
+                                  </div>
+                                  <div class="col-md-12 d-flex flex-column justify-content-end">
+                                        <button class="btn btn-success btn-block">Search</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="fun" role="tabpanel" aria-labelledby="fun-tab">
+                              <div class="booking-form">
+                                <div class="row row-lopad">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="form-label">Dog Boarding near</label>
+                                      <input type="text" class="form-control" placeholder="Zip Code or Address">
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-12">
+
+                                    <div class="row row-lopad">
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label class="form-label">For these days</label>
+                                          <div class="input-wirh-icon" >
+                                            <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick up">
+                                            <span class="fa fa-calendar"></span>
+                                          </div>
+                                        </div>
+                                      </div>
+                                      <div class="col-md-6">
+                                        <div class="form-group">
+                                          <label class="form-label">No. of Hours</label>
+                                          <select class="chzn-select form-control" name="hours">
+                                            <option>Select Hours</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                            <option value="7">7</option>
+                                            <option value="8">8</option>
+                                            <option value="9">9</option>
+                                            <option value="10">10</option>
+                                            <option value="11">11</option>
+                                            <option value="12">12</option>
+                                        </select>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+
+                                <div class="row row-lopad">
+                                  <div class="col-md-12">
+                                    <div class="form-group">
+                                      <label class="form-label">Per Dog Per Day</label>
+                                      <select type="text" class="form-control" name="rate">
+                                        <option>--Select Rate--</option>
+                                        <option value="600,799">600 - 799</option>
+                                        <option value="800,999">800 - 999</option>
+                                        <option value="1000,1199">1000 - 1199</option>
+                                        <option value="1200,20000">1200 Onwards</option>
+                                      </select>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-12 d-flex flex-column justify-content-end">
+                                      <button class="btn btn-success btn-block">Search</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                           </div>
+                        </div>
+                      </div>
+
+
+
+                        <div class="result-view">
+                          <div class="result-header">
+                            <div class="row mar-b10">
+
+                              <div class="col-sm-8">
+                                <span>200 Results Found</span>
+                              </div>
+
+                                <div class="col-sm-4 text-right"><label class="sort-label">Sort By: &nbsp;</label>
+                                  <select class="" name="">
+                                  <option>Relevance</option>
+                                  <option>Price: Low to High</option>
+                                  <option>Price: High to Low</option>
+                                  <option>Discount</option>
+
+
+                                </select>
+                              </div>
+                          </div>
+                          </div>
+
+
+
+                          <div class="result-list">
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list1.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">Geetika</a>
+                                          </h3>
+                                          <p>
+                                            Hey guys, very cliched to say that I love dogs but that’s the truth, I can’t keep one on permane
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                            A 192, regency park 1,DLF Phase 4
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                              122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list2.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">Itee Yadav</a>
+                                          </h3>
+                                          <p>
+                                            I am a software consultant with Infosys working from home often bringing home friends and relatives
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                            C-1125, first floor, ansal esencia, sector 67, Golf Course Extn
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                               122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list3.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">RashiKataria</a>
+                                          </h3>
+                                          <p>
+                                            Have been a professional in garment trade. Currwntly mother of my little angel cocco. Would love him
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                          Golf Course Sec 43 A-52, Golf Course Road
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                              122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list4.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">Anita Khullar</a>
+                                          </h3>
+                                          <p>
+                                            Hey guys, very cliched to say that I love dogs but that’s the truth, I can’t keep one on permane
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                             Regency Park, DLF Phase 4
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                               122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list5.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">Neha Chopra</a>
+                                          </h3>
+                                          <p>
+                                            I belong to a family of animal lovers... I am a mother to two boys and a dachshund... We all would l
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                            Mapsko casabella, Sector-82
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                              122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list6.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">Kanika Cairae</a>
+                                          </h3>
+                                          <p>
+                                            Hello! I am kanika, an active , animal loving and reliable person who understands the dedication and
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                            BPTP Astaire Garden Sector 70A, Golf Course Extn
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                              122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="result-block card">
+                              <div class="card-body">
+                                <div class="row">
+                                  <div class="col-md-8">
+                                    <div class="media">
+                                      <div class="media-left media-top">
+                                          <img class="thumb-img media-object" src="./images/listing/list7.jpeg">
+
+                                      </div>
+                                      <div class="media-body">
+                                        <div class="host-info">
+                                          <h3 class="name-text" >
+                                            <a href="#">Anjum Kapur</a>
+                                          </h3>
+                                          <p>
+                                            Dog lover. Would love to host small dogs.
+                                          </p>
+                                        </div>
+
+
+                                        <div class="address-block">
+                                          <span class="locality">
+                                              <i class="fa fa-home" aria-hidden="true"></i>
+                                            Uniworld City, Sector-30
+                                          </span>
+                                          <span class="locality">
+                                              <i class="icon fa fa-map-marker"></i>
+                                              122001
+                                          </span>
+                                        </div>
+
+
+                                      </div>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-4">
+                                    <div class="pricing-detail">
+                                      <h4>Starting From <small>(per Dog onwards)</small> </h4>
+                                      <table class="table table-table-condensed">
+                                        <tr>
+                                          <td><strong>Cozy Homes</strong></td>
+                                          <td><span>Rs 700 / Day</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Day Care</strong></td>
+                                          <td><span>Rs 1500 / Week</span></td>
+                                        </tr>
+                                        <tr>
+                                          <td><strong>Fun Buddies</strong></td>
+                                          <td><span>Rs 75 / Hour</span></td>
+                                        </tr>
+                                      </table>
+
+                                    </div>
+                                    <div class="book-appointment">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                        Send Enquiry
+                                      </button>
+                                    </div>
+                                  </div>
+
+
+
+                                </div>
+                              </div>
+
+                            </div>
+
+                          </div>
+
+
+                          <div class="results-footer d-flex">
+                            <nav aria-label="...">
+                              <ul class="pagination">
+                                <li class="page-item disabled">
+                                  <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                <li class="page-item active">
+                                  <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item">
+                                  <a class="page-link" href="#">Next</a>
+                                </li>
+                              </ul>
+                            </nav>
+                          </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+               </div>
+            </div>
+         </section>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-top-text">
+                <h4>Get cute puppies in your inbox</h4>
+                <p>By providing my e-mail address, you can get notification</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-top-form">
+                  <div class="email-form">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <button class="btn btn-dark">Submit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>About Zamba Dogs</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <p>
+                    We know your dogs mean a lot to you. That’s why we take the utmost care to ensure that our hosts will love them as much as you do.
+                    <a href="#">Read More..</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Social Link</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <ul class="social-list">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Important Links</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+                    <li>
+                      <a href="#">Read Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Book Host</a>
+                    </li>
+                    <li>
+                      <a href="#">Sit a Dog, Save a Life</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Legal</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Term of Use</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Need Help?</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Address</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <p>Hobbes Dog Care Technologies Pvt. Ltd<br>
+                       A1-902, Uniworld City, Sector 30, <br>
+                      Gurgaon 122001</p>
+                    </li>
+                    <li>
+                      <p>
+                				<span class="blockd">+91 9600578072</span><br>
+                				<span class="blockd">woofcare@zambadogs.com</span><br>
+                				<span class="blockd">www.zambadogs.com</span>
+                			</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bootom text-center">
+          <p>© 2019 Zambadogs.com. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+      <div data-moto-back-to-top-button class="moto-back-to-top-button">
+         <a href="#" ng-click="toTop($event)" class="moto-back-to-top-button-link">
+         <span class="moto-back-to-top-button-icon fa"></span>
+         </a>
+      </div>
+
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
