@@ -1762,8 +1762,8 @@ h4 {
 }
 @media screen and (max-width: 767px) {
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list {
-    border: 2px solid;
-    max-width: auto;
+      border: 1px solid;
+      max-width: auto;
   }
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item {
     border: none;
@@ -1775,13 +1775,13 @@ h4 {
     display: none;
   }
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link {
-    padding: 10px 50px 10px 20px;
-    font-size: 18px;
+    padding: 6px 14px 5px 12px;
+    font-size: 13.3px;
     line-height: 1.2;
     text-align: left;
     border: none;
     border-radius: 0;
-  }
+}
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link:after,
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link:before {
     display: none;
@@ -1833,12 +1833,12 @@ h4 {
     border-bottom: none;
   }
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-sublist .moto-widget-menu-item .moto-widget-menu-link {
-    padding: 7px 40px;
+    padding: 7px 21px;
     font-size: 14px;
     margin: 0;
     border: none;
     text-align: left;
-  }
+}
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-sublist .moto-widget-menu-item .moto-widget-menu-link:before,
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-sublist .moto-widget-menu-item .moto-widget-menu-link:after {
     display: none;
@@ -3106,38 +3106,48 @@ h4 {
   color: #1f1e1e;
 }
 .moto-widget-menu.moto-preset-default .moto-widget-menu-toggle-btn {
-  color: #1f1e1e;
-  background-color: #ffffff;
+    color: #1f1e1e;
+    background-color: #ffffff;
+    height: 54px;
+    line-height: 55px;
 }
 @media screen and (max-width: 767px) {
+  .moto-widget-menu.moto-preset-default .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link-level-1{
+    line-height: normal;
+  }
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-toggle-btn {
     color: #ffffff;
     background-color: #1f1e1e;
   }
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list {
-    background-color: #ffffff;
-    border-color: #1f1e1e;
+      background-color: #ffffff;
+      border-color: #d6d6d6;
+      border-radius: 4px;
+      overflow: hidden;
+      margin-top: 3px;
   }
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item {
     border-color: transparent;
   }
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link {
-    color: #ffde17;
+    color: #565656;
     text-decoration: none;
     background-color: transparent;
-  }
-  .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link.moto-widget-menu-link-active {
-    color: #ffffff;
+}
+.moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link.moto-widget-menu-link-active {
+    color: #1e1e1e;
     text-decoration: none;
-    background-color: #1f1e1e;
-  }
+    background-color: #bad874;
+    font-weight: 600;
+}
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist {
-    background-color: #ffffff;
-  }
+    background-color: #f5f5f5;
+}
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist .moto-widget-menu-link {
-    color: #ffde17;
-    text-decoration: none;
-    background-color: transparent;
+      color: #989898;
+      text-decoration: none;
+      background-color: transparent;
+      font-size: 13px !important;
   }
   .moto-widget-menu.moto-preset-default.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist .moto-widget-menu-link.moto-widget-menu-link-active {
     color: #1f1e1e;

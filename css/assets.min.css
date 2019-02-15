@@ -6060,7 +6060,6 @@ body:not(.moto-preview) .moto-before-in-viewport .moto-widget-completion_bars__s
   }
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist {
     position: static;
-    display: block;
     padding: 0;
   }
   .moto-widget-menu.moto-widget-menu-mobile-open .moto-widget-menu-list .moto-widget-menu-sublist .moto-widget-menu-item {
