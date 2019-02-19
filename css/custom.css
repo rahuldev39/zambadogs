@@ -1269,6 +1269,36 @@ font-size: 13px;
     justify-content: space-between;
 
 }
+.book-host-modal {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.book-host-modal h2 {
+    font-family: oswald;
+    color: #3e3e3e;
+    font-size: 29px;
+    margin: 20px 0px;
+}
+.book-host-modal p{
+
+}
+.book-host-modal .coming-icon {
+    font-size: 25px;
+    color: #b8d76f;
+}
+.book-host-coming .modal-dialog{
+  margin-top: 100px
+}
+.nav-btn {
+    color: #bad874;
+    border: 2px solid #bad874;
+    padding: 5px 13px !important;
+    border-radius: 4px;
+}
+.nav-btn:hover, .nav-btn:focus {
+    background-color: #bad874;
+    color: #36382a;
+}
 @media (min-width: 768px) {
   table.dataTable {
     width: 100% !important;

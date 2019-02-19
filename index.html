@@ -69,6 +69,9 @@
                                    </li>
                                 </ul>
                              </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link nav-btn" data-toggle="modal" data-target="#exampleModal">Book Host</a>
+                             </li>
                           </ul>
                        </div>
                     </div>
@@ -362,7 +365,7 @@
                  </div>
 
                  <div class="btn-container text-center">
-                   <button class="btn btn-success">Book a host</button>
+                   <button class="btn btn-success" data-toggle="modal" data-target="#exampleModal">Book a host</button>
                  </div>
 
 
@@ -588,6 +591,32 @@
          <span class="moto-back-to-top-button-icon fa"></span>
          </a>
       </div>
+
+
+      <!-- Modal -->
+<div class="modal fade book-host-coming" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Book A Host</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="book-host-modal text-center">
+          <div class="coming-icon">
+            <i class="fa fa-clock-o fa-3x"></i>
+          </div>
+          <h2>Coming Soon with Online Booking Option</h2>
+
+          <p>Send email to <br> <a href="#">woofcare@zambadogs.com</a>  for booking</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
 
       <script src="./js/jquery.min.js"></script>
       <script src="./js/bootstrap.bundle.min.js"></script>
