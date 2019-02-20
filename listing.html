@@ -91,201 +91,90 @@
                         </div>
                         <div class="sidebar__inner">
                           <div class="card-body">
-                            <ul class="nav nav-pills" id="myTab" role="tablist">
-                              <li class="nav-item">
-                                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                            <div class="booking-tabs">
+                              <ul>
+                                <li>
+                                  <label>
+                                    <input type="radio" name="booking" value="" checked>
+                                      <div class="tab-item">
 
-                                  Cozy Homes
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" id="day-tab" data-toggle="tab" href="#day" role="tab" aria-controls="day" aria-selected="false">
-
-                                  Day Care
-                                </a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" id="fun-tab" data-toggle="tab" href="#fun" role="tab" aria-controls="fun" aria-selected="false">
-
-                                  Fun Buddy
-                                </a>
-                              </li>
-                             </ul>
-                             <div class="tab-content" id="myTabContent">
-                              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <div class="booking-form">
-                                  <div class="row row-lopad">
-                                    <div class="col-md-12">
-                                      <div class="form-group">
-                                        <label class="form-label">Dog Boarding near</label>
-                                        <input type="text" class="form-control" placeholder="Zip Code or Address">
+                                        Cozy Homes
                                       </div>
-                                    </div>
+                                  </label>
+                                </li>
+                                <li>
+                                  <label>
+                                    <input type="radio" name="booking" value="">
+                                      <div class="tab-item">
 
-                                    <div class="col-md-12">
-                                        <label class="form-label">For these days</label>
-                                      <div class="row row-lopad">
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <div class="input-wirh-icon" >
-                                              <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick Up">
-                                              <span class="fa fa-calendar"></span>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <div class="input-wirh-icon" >
-                                              <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Drop Off">
-                                              <span class="fa fa-calendar"></span>
-                                            </div>
-                                          </div>
-                                        </div>
+                                        Day Care
                                       </div>
-                                    </div>
+                                  </label>
+                                </li>
+                                <li>
+                                  <label>
+                                    <input type="radio" name="booking" value="">
+                                      <div class="tab-item">
+
+                                        Fun Buddy
+                                      </div>
+                                  </label>
+                                </li>
+                              </ul>
+                            </div>
+
+                            <div class="booking-form">
+                              <div class="row row-lopad">
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <label class="form-label">Dog Boarding near</label>
+                                    <input type="text" class="form-control" placeholder="Zip Code or Address">
                                   </div>
+                                </div>
 
-
+                                <div class="col-md-12">
+                                    <label class="form-label">For these days</label>
                                   <div class="row row-lopad">
-                                    <div class="col-md-12">
+                                    <div class="col-md-6">
                                       <div class="form-group">
-                                        <label class="form-label">Per Dog Per Day</label>
-                                        <select type="text" class="form-control" name="rate">
-                                          <option>--Select Rate--</option>
-                                          <option value="600,799">600 - 799</option>
-                                          <option value="800,999">800 - 999</option>
-                                          <option value="1000,1199">1000 - 1199</option>
-                                          <option value="1200,20000">1200 Onwards</option>
-                                        </select>
+                                        <div class="input-wirh-icon" >
+                                          <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick Up">
+                                          <span class="fa fa-calendar"></span>
+                                        </div>
                                       </div>
                                     </div>
-                                    <div class="col-md-12 d-flex flex-column justify-content-end">
-                                          <button class="btn btn-success btn-block">Search</button>
+                                    <div class="col-md-6">
+                                      <div class="form-group">
+                                        <div class="input-wirh-icon" >
+                                          <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Drop Off">
+                                          <span class="fa fa-calendar"></span>
+                                        </div>
+                                      </div>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="tab-pane fade" id="day" role="tabpanel" aria-labelledby="day-tab">
-                                <div class="booking-form">
-                                  <div class="row row-lopad">
-                                    <div class="col-md-12">
-                                      <div class="form-group">
-                                        <label class="form-label">Dog Boarding near</label>
-                                        <input type="text" class="form-control" placeholder="Zip Code or Address">
-                                      </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-                                        <label class="form-label">For these days</label>
-                                      <div class="row row-lopad">
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <div class="input-wirh-icon" >
-                                              <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick Up">
-                                              <span class="fa fa-calendar"></span>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <div class="input-wirh-icon" >
-                                              <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Drop Off">
-                                              <span class="fa fa-calendar"></span>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
 
 
-                                  <div class="row row-lopad">
-                                    <div class="col-md-12">
-                                      <div class="form-group">
-                                        <label class="form-label">Per Dog Per Day</label>
-                                        <select type="text" class="form-control" name="rate">
-                                          <option>--Select Rate--</option>
-                                          <option value="600,799">600 - 799</option>
-                                          <option value="800,999">800 - 999</option>
-                                          <option value="1000,1199">1000 - 1199</option>
-                                          <option value="1200,20000">1200 Onwards</option>
-                                        </select>
-                                      </div>
-
-                                    </div>
-                                    <div class="col-md-12 d-flex flex-column justify-content-end">
-                                          <button class="btn btn-success btn-block">Search</button>
-                                    </div>
+                              <div class="row row-lopad">
+                                <div class="col-md-12">
+                                  <div class="form-group">
+                                    <label class="form-label">Per Dog Per Day</label>
+                                    <select type="text" class="form-control" name="rate">
+                                      <option>--Select Rate--</option>
+                                      <option value="600,799">600 - 799</option>
+                                      <option value="800,999">800 - 999</option>
+                                      <option value="1000,1199">1000 - 1199</option>
+                                      <option value="1200,20000">1200 Onwards</option>
+                                    </select>
                                   </div>
                                 </div>
-                              </div>
-                              <div class="tab-pane fade" id="fun" role="tabpanel" aria-labelledby="fun-tab">
-                                <div class="booking-form">
-                                  <div class="row row-lopad">
-                                    <div class="col-md-12">
-                                      <div class="form-group">
-                                        <label class="form-label">Dog Boarding near</label>
-                                        <input type="text" class="form-control" placeholder="Zip Code or Address">
-                                      </div>
-                                    </div>
-
-                                    <div class="col-md-12">
-
-                                      <div class="row row-lopad">
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <label class="form-label">For these days</label>
-                                            <div class="input-wirh-icon" >
-                                              <input type="text" class="form-control datepicker" data-provide="datepicker" placeholder="Pick up">
-                                              <span class="fa fa-calendar"></span>
-                                            </div>
-                                          </div>
-                                        </div>
-                                        <div class="col-md-6">
-                                          <div class="form-group">
-                                            <label class="form-label">No. of Hours</label>
-                                            <select class="chzn-select form-control" name="hours">
-                                              <option>Select Hours</option>
-                                              <option value="1">1</option>
-                                              <option value="2">2</option>
-                                              <option value="3">3</option>
-                                              <option value="4">4</option>
-                                              <option value="5">5</option>
-                                              <option value="6">6</option>
-                                              <option value="7">7</option>
-                                              <option value="8">8</option>
-                                              <option value="9">9</option>
-                                              <option value="10">10</option>
-                                              <option value="11">11</option>
-                                              <option value="12">12</option>
-                                          </select>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-
-                                  <div class="row row-lopad">
-                                    <div class="col-md-12">
-                                      <div class="form-group">
-                                        <label class="form-label">Per Dog Per Day</label>
-                                        <select type="text" class="form-control" name="rate">
-                                          <option>--Select Rate--</option>
-                                          <option value="600,799">600 - 799</option>
-                                          <option value="800,999">800 - 999</option>
-                                          <option value="1000,1199">1000 - 1199</option>
-                                          <option value="1200,20000">1200 Onwards</option>
-                                        </select>
-                                      </div>
-                                    </div>
-                                    <div class="col-md-12 d-flex flex-column justify-content-end">
-                                        <button class="btn btn-success btn-block">Search</button>
-                                    </div>
-                                  </div>
+                                <div class="col-md-12 d-flex flex-column justify-content-end">
+                                    <button class="btn btn-success btn-block">Search</button>
                                 </div>
                               </div>
-                             </div>
+                            </div>
+
                           </div>
                         </div>
 
