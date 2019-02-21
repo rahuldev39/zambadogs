@@ -1316,6 +1316,33 @@ color: black;
     padding: 7px 10px;
     font-size: 12px;
 }
+.testimonial-box {
+    padding: 30px 50px;
+    margin-bottom: 25px;
+}
+.textimonial-container .owl-nav {
+    position: absolute;
+    right: 0px;
+    bottom: 21px;
+}
+.textimonial-container.owl-carousel .owl-nav button {
+    background-color: #b8d76f !important;
+    padding: 0px 9px !important;
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 20px;
+    line-height: initial;
+    color: #202021;
+    padding-bottom: 1px !important;
+    outline: none
+}
+.textimonial-container.owl-carousel .owl-nav button:hover{
+  background-color: #343a40 !important;
+  color: white
+}
+.testimonial-writer img{
+  max-width: 60px
+}
 @media (min-width: 768px) {
   table.dataTable {
     width: 100% !important;
