@@ -1343,6 +1343,53 @@ color: black;
 .testimonial-writer img{
   max-width: 60px
 }
+
+.profile-tabs a.nav-link {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2px;
+    background-color: #c2dc83;
+    color: #1f1e1e;
+    border-radius: 0px;
+    border-bottom: 1px solid #b2cc76;
+    margin-bottom: 0px;
+}
+.profile-tabs a.nav-link.active {
+    color: #1f1e1e;
+    background-color: #ffffff;
+    border-bottom: 1px solid white;
+}
+.profile-tabs a.nav-link i {
+    display: block;
+    font-size: 25px;
+    margin-bottom: 4px;
+}
+.box-view.no-padder{
+  padding: 0px
+}
+.profile-container {
+    display: flex;
+    margin-top: 25px;
+}
+.profile-tabs {
+    flex-basis: 132px;
+    background-color: #c2dc84;
+}
+.profile-tabs-content {
+    flex: 1;
+    padding: 25px;
+}
+.question-title {
+    font-size: 13px;
+    border-bottom: 1px solid #b8d76f;
+    margin-bottom: 15px;
+}
+.question-title span {
+    display: inline-block;
+    background-color: #b8d76f;
+    padding: 6px 12px;
+    color: #202223;
+}
 @media (min-width: 768px) {
   table.dataTable {
     width: 100% !important;

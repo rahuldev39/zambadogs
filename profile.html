@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="website">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="utf-8">
+      <title>Zamba Dogs</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&amp;subset=latin);
+      </style>
+      <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="./css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./css/assets.min.css" />
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="stylesheet" href="./css/custom.css" />
+   </head>
+   <body>
+      <div class="page">
+         <header class="header header-internal" >
+           <nav class="navigation white-nav">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-sm-3">
+                       <div class="logo-container">
+                         <img src="./images/logo-1.png" alt="" class="logo-img">
+                       </div>
+                    </div>
+                    <div class="col-sm-9">
+                       <div class="moto-widget-menu moto-preset-default moto-align-right ">
+                          <a href="#" class="moto-widget-menu-toggle-btn">
+                            <i class="moto-widget-menu-toggle-btn-icon fa fa-bars"></i>
+                          </a>
+                          <ul class="moto-widget-menu-list moto-widget-menu-list_horizontal">
+                             <li class="moto-widget-menu-item">
+                                <a href="index.html" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-active">Home</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Our Services</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Help</a>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign Up <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign In <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                          </ul>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </nav>
+         </header>
+
+
+         <section class="content content-page-internal" >
+
+            <div class="section moto-spacing-top-large  moto-spacing-bottom-large ">
+               <div class="container">
+
+
+                 <div class="box-view no-padder ">
+
+
+                   <div class="profile-container">
+                     <div class="nav flex-column nav-pills profile-tabs" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                       <a class="nav-link active" data-toggle="pill" href="#profile" role="tab" aria-controls="profile" aria-selected="true">
+                         <i class="fa fa-user-plus" aria-hidden="true"></i>  Profile
+                       </a>
+                       <a class="nav-link" data-toggle="pill" href="#password" role="tab" aria-controls="password" aria-selected="false">
+                         <i class="fa fa-unlock-alt" aria-hidden="true"></i>  Password
+                       </a>
+                       <a class="nav-link" data-toggle="pill" href="#question" role="tab" aria-controls="question" aria-selected="false">
+                        <i class="fa fa-question-circle-o" aria-hidden="true"></i>  Question
+                       </a>
+                       <a class="nav-link" data-toggle="pill" href="#price" role="tab" aria-controls="price" aria-selected="false">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>  Price
+                       </a>
+                       <a class="nav-link" data-toggle="pill" href="#table" role="tab" aria-controls="table" aria-selected="false">
+                        <i class="fa fa-credit-card" aria-hidden="true"></i>  Table
+                       </a>
+                     </div>
+                  <div class="profile-tabs-content">
+                    <div class="tab-content" >
+                      <div class="tab-pane fade show active" id="profile" role="tabpanel">
+
+                        <div class="faq-title">
+                          <h4>User Profile</h4>
+                        </div>
+
+                        <div class="form-container">
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Name</label>
+                                       <input type="text" class="form-control" placeholder="Please enter name">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Email</label>
+                                      <input type="text" class="form-control" placeholder="Please enter email">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Mobile Number</label>
+                                       <input type="text" class="form-control" placeholder="Please enter mobile">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">City</label>
+                                      <input type="text" class="form-control" placeholder="Please enter city">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Locality</label>
+                                       <input type="text" class="form-control" placeholder="Please enter locality">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Street Address</label>
+                                      <input type="text" class="form-control" placeholder="Please enter street address">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Pin Code</label>
+                                       <input type="text" class="form-control" placeholder="Please enter pin">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Address Proof</label>
+                                      <input type="text" class="form-control" placeholder="Please enter  address">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+
+
+                           <div class="form-footer text-center">
+                             <button class="btn btn-dark">Cancel</button>
+                             <button class="btn btn-success">Save Changes</button>
+                           </div>
+                         </div>
+
+                      </div>
+                      <div class="tab-pane fade" id="password" role="tabpanel">
+
+                        <div class="faq-title">
+                          <h4>Update Password</h4>
+                        </div>
+
+                        <div class="form-container">
+                          <div class="row">
+                             <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Old Password</label>
+                                      <input type="password" class="form-control" placeholder="Enter old password">
+                                    </div>
+
+                                  </div>
+                                </div>
+                             </div>
+
+                          </div>
+
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Password</label>
+                                       <input type="password" class="form-control" placeholder="Enter new password">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Confirm Password</label>
+                                      <input type="password" class="form-control" placeholder="Confirm new password">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+
+
+                           <div class="form-footer text-center">
+                             <button class="btn btn-dark">Cancel</button>
+                             <button class="btn btn-success">Save Changes</button>
+                           </div>
+                         </div>
+
+                      </div>
+
+                      <div class="tab-pane fade" id="question" role="tabpanel">
+
+                        <div class="faq-title">
+                          <h4>Edit Questions</h4>
+                        </div>
+
+                        <div class="form-container">
+                          <div class="question-title">
+                            <span>Question 1</span>
+                          </div>
+                          <div class="row">
+                             <div class="col-md-12 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Question Title</label>
+                                      <input type="text" class="form-control" placeholder="Enter question title">
+                                    </div>
+
+                                  </div>
+                                </div>
+                             </div>
+
+                          </div>
+
+
+
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Option 1</label>
+                                       <input type="text" class="form-control" placeholder="Enter option 1">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Option 2</label>
+                                      <input type="text" class="form-control" placeholder="Enter option 2">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Option 3</label>
+                                       <input type="text" class="form-control" placeholder="Enter option 3">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                              <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Option 4</label>
+                                      <input type="text" class="form-control" placeholder="Enter option 4">
+                                    </div>
+
+                                  </div>
+                                </div>
+                              </div>
+                           </div>
+
+                           <div class="question-title">
+                             <span>Question 2</span>
+                           </div>
+                           <div class="row">
+                              <div class="col-md-12 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Question Title</label>
+                                       <input type="text" class="form-control" placeholder="Enter question title">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                           </div>
+
+
+
+                            <div class="row">
+                               <div class="col-md-6 ">
+                                  <div class="form-block">
+                                    <div class="form-content">
+                                      <div class="form-item">
+                                        <label for="">Option 1</label>
+                                        <input type="text" class="form-control" placeholder="Enter option 1">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                               </div>
+
+                               <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Option 2</label>
+                                       <input type="text" class="form-control" placeholder="Enter option 2">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                               </div>
+                            </div>
+
+                            <div class="row">
+                               <div class="col-md-6 ">
+                                  <div class="form-block">
+                                    <div class="form-content">
+                                      <div class="form-item">
+                                        <label for="">Option 3</label>
+                                        <input type="text" class="form-control" placeholder="Enter option 3">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                               </div>
+
+                               <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Option 4</label>
+                                       <input type="text" class="form-control" placeholder="Enter option 4">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                               </div>
+                            </div>
+
+
+                            <div class="question-title">
+                              <span>Question 3</span>
+                            </div>
+                            <div class="row">
+                               <div class="col-md-12 ">
+                                  <div class="form-block">
+                                    <div class="form-content">
+                                      <div class="form-item">
+                                        <label for="">Question Title</label>
+                                        <input type="text" class="form-control" placeholder="Enter question title">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                               </div>
+
+                            </div>
+
+
+
+                             <div class="row">
+                                <div class="col-md-6 ">
+                                   <div class="form-block">
+                                     <div class="form-content">
+                                       <div class="form-item">
+                                         <label for="">Option 1</label>
+                                         <input type="text" class="form-control" placeholder="Enter option 1">
+                                       </div>
+
+                                     </div>
+                                   </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                  <div class="form-block">
+                                    <div class="form-content">
+                                      <div class="form-item">
+                                        <label for="">Option 2</label>
+                                        <input type="text" class="form-control" placeholder="Enter option 2">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                             </div>
+
+                             <div class="row">
+                                <div class="col-md-6 ">
+                                   <div class="form-block">
+                                     <div class="form-content">
+                                       <div class="form-item">
+                                         <label for="">Option 3</label>
+                                         <input type="text" class="form-control" placeholder="Enter option 3">
+                                       </div>
+
+                                     </div>
+                                   </div>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                  <div class="form-block">
+                                    <div class="form-content">
+                                      <div class="form-item">
+                                        <label for="">Option 4</label>
+                                        <input type="text" class="form-control" placeholder="Enter option 4">
+                                      </div>
+
+                                    </div>
+                                  </div>
+                                </div>
+                             </div>
+
+
+
+                           <div class="form-footer text-center">
+                             <button class="btn btn-dark">Cancel</button>
+                             <button class="btn btn-success">Save Changes</button>
+                           </div>
+                         </div>
+
+                      </div>
+                      <div class="tab-pane fade" id="price" role="tabpanel">
+
+                        <div class="faq-title">
+                          <h4>Update Pricing</h4>
+                        </div>
+
+                        <div class="form-container">
+                          <div class="row">
+                             <div class="col-md-6 ">
+                                <div class="form-block">
+                                  <div class="form-content">
+                                    <div class="form-item">
+                                      <label for="">Cozy Homes</label>
+                                      <input type="password" class="form-control" placeholder="Enter Cozy Homes pricing">
+                                    </div>
+
+                                  </div>
+                                </div>
+                             </div>
+
+                          </div>
+
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Day Care</label>
+                                       <input type="text" class="form-control" placeholder="Enter Day Care pricing">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                           </div>
+
+                           <div class="row">
+                              <div class="col-md-6 ">
+                                 <div class="form-block">
+                                   <div class="form-content">
+                                     <div class="form-item">
+                                       <label for="">Fun Buddy</label>
+                                       <input type="text" class="form-control" placeholder="Enter Fun Buddy pricing">
+                                     </div>
+
+                                   </div>
+                                 </div>
+                              </div>
+
+                           </div>
+
+                           <div class="form-footer text-center">
+                             <button class="btn btn-dark">Cancel</button>
+                             <button class="btn btn-success">Save Changes</button>
+                           </div>
+                         </div>
+
+                      </div>
+
+                      <div class="tab-pane fade" id="table" role="tabpanel">
+
+                        <div class="faq-title">
+                          <h4>Dummy Table</h4>
+                        </div>
+
+                        <div class="table-responsive">
+                          <table class="table table-striped table-condensed">
+                              <thead>
+                              <tr>
+                                  <th>Username</th>
+                                  <th>Date registered</th>
+                                  <th>Role</th>
+                                  <th>Status</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                                <td>Donna R. Folse</td>
+                                <td>2012/05/06</td>
+                                <td>Editor</td>
+                                <td><span class="badge badge-success">Active</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Emily F. Burns</td>
+                                <td>2011/12/01</td>
+                                <td>Staff</td>
+                                <td><span class="badge badge-warning">Banned</span></td>
+                            </tr>
+                            <tr>
+                                <td>Andrew A. Stout</td>
+                                <td>2010/08/21</td>
+                                <td>User</td>
+                                <td><span class="badge badge-danger">Inactive</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mary M. Bryan</td>
+                                <td>2009/04/11</td>
+                                <td>Editor</td>
+                                <td><span class="badge badge-warning">Pending</span></td>
+                            </tr>
+                            <tr>
+                                <td>Mary A. Lewis</td>
+                                <td>2007/02/01</td>
+                                <td>Staff</td>
+                                <td><span class="badge badge-success">Active</span></td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        </div>
+
+
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+                 </div>
+
+
+               </div>
+            </div>
+         </section>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-top-text">
+                <h4>Get cute puppies in your inbox</h4>
+                <p>By providing my e-mail address, you can get notification</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-top-form">
+                  <div class="email-form">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <button class="btn btn-dark">Submit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>About Zamba Dogs</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <p>
+                    We know your dogs mean a lot to you. That’s why we take the utmost care to ensure that our hosts will love them as much as you do.
+                    <a href="#">Read More..</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Social Link</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <ul class="social-list">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Important Links</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+                    <li>
+                      <a href="#">Read Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Book Host</a>
+                    </li>
+                    <li>
+                      <a href="#">Sit a Dog, Save a Life</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Legal</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Term of Use</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Need Help?</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Address</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <p>Hobbes Dog Care Technologies Pvt. Ltd<br>
+                       A1-902, Uniworld City, Sector 30, <br>
+                      Gurgaon 122001</p>
+                    </li>
+                    <li>
+                      <p>
+                				<span class="blockd">+91 9600578072</span><br>
+                				<span class="blockd">woofcare@zambadogs.com</span><br>
+                				<span class="blockd">www.zambadogs.com</span>
+                			</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bootom text-center">
+          <p>© 2019 Zambadogs.com. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+      <div data-moto-back-to-top-button class="moto-back-to-top-button">
+         <a href="#" ng-click="toTop($event)" class="moto-back-to-top-button-link">
+         <span class="moto-back-to-top-button-icon fa"></span>
+         </a>
+      </div>
+
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
