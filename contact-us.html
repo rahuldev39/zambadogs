@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en" data-ng-app="website">
+   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+   <head>
+      <meta charset="utf-8">
+      <title>Zamba Dogs</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <style>
+         @import url(http://fonts.googleapis.com/css?family=Abril+Fatface:regular|Open+Sans:300,300italic,regular,italic,600,600italic,700,700italic&amp;subset=latin);
+      </style>
+      <link rel="stylesheet" href="./fonts/font-awesome/css/font-awesome.min.css" />
+      <link rel="stylesheet" href="./css/bootstrap.min.css" />
+      <link rel="stylesheet" href="./css/assets.min.css" />
+      <link href="./css/snazzy-info-window.css" rel="stylesheet">
+      <link rel="stylesheet" href="./css/styles.css" />
+      <link rel="stylesheet" href="./css/custom.css" />
+   </head>
+   <body>
+      <div class="page">
+         <header class="header header-internal" >
+           <nav class="navigation white-nav">
+              <div class="container">
+                 <div class="row">
+                    <div class="col-sm-3">
+                       <div class="logo-container">
+                         <img src="./images/logo-1.png" alt="" class="logo-img">
+                       </div>
+                    </div>
+                    <div class="col-sm-9">
+                       <div class="moto-widget-menu moto-preset-default moto-align-right ">
+                          <a href="#" class="moto-widget-menu-toggle-btn">
+                            <i class="moto-widget-menu-toggle-btn-icon fa fa-bars"></i>
+                          </a>
+                          <ul class="moto-widget-menu-list moto-widget-menu-list_horizontal">
+                             <li class="moto-widget-menu-item">
+                                <a href="index.html" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-active">Home</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Our Services</a>
+                             </li>
+                             <li class="moto-widget-menu-item">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1">Help</a>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign Up <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                             <li class="moto-widget-menu-item moto-widget-menu-item-has-submenu">
+                                <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-1 moto-widget-menu-link-submenu">
+                                  Sign In <span class="fa fa-angle-down moto-widget-menu-link-arrow"></span>
+                                </a>
+                                <ul class="moto-widget-menu-sublist">
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Host</a>
+                                   </li>
+
+                                   <li class="moto-widget-menu-item">
+                                      <a href="#" class="moto-widget-menu-link moto-widget-menu-link-level-2">Dog Parent</a>
+                                   </li>
+                                </ul>
+                             </li>
+                          </ul>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </nav>
+         </header>
+
+
+         <section class="content content-page-internal" >
+
+            <div class="section moto-spacing-top-large  moto-spacing-bottom-large ">
+               <div class="container">
+                 <div class="section-title text-center">
+                    <h2 class="moto-text_system_8">Get In Touch</h2>
+                    <div class="moto-widget moto-widget-divider moto-preset-default moto-align-center  moto-spacing-top-small  moto-spacing-bottom-small   ">
+                       <hr class="moto-widget-divider-line" style="max-width:100%;width:10%;">
+                    </div>
+                    <div class="section-subtitle">
+                       <p class="moto-text_normal" style="text-align: center;">
+                         Join our community to host a dog at your convenience, at your preferred date and time and share the love.
+                        </p>
+                    </div>
+                 </div>
+
+                 <div class="form-container box-view contact-container">
+
+                   <div id="map"></div>
+
+                   <div class="row">
+
+                     <div class="col-md-5 ">
+                       <div class="contact-block">
+                         <h4>Address</h4>
+                         <p>
+                          <strong>Hobbes Dog Care Technologies Pvt. Ltd</strong>  <br>
+                           A1-902, Uniworld City, Sector 30, <br>
+                           Gurgaon 122001
+                        </p>
+                       </div>
+
+                       <div class="contact-block">
+                         <h4>Email</h4>
+                         <p>
+                          <a href="#">woofcare@zambadogs.com</a>
+                        </p>
+                        <p>
+                         <a href="#">www.zambadogs.com</a>
+                       </p>
+                       </div>
+
+                       <div class="contact-block">
+                         <h4>Phone</h4>
+                         <p>
+                          +91 9600578072
+                        </p>
+                       </div>
+
+                       <div class="contact-block">
+                         <h4>Social</h4>
+                         <ul class="social-list">
+                           <li>
+                             <a href="#">
+                               <i class="fa fa-facebook" aria-hidden="true"></i>
+                             </a>
+                           </li>
+                           <li>
+                             <a href="#">
+                               <i class="fa fa-instagram" aria-hidden="true"></i>
+                             </a>
+                           </li>
+                           <li>
+                             <a href="#">
+                               <i class="fa fa-twitter" aria-hidden="true"></i>
+                             </a>
+                           </li>
+                           <li>
+                             <a href="#">
+                               <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                             </a>
+                           </li>
+                         </ul>
+                       </div>
+                     </div>
+
+                      <div class="col-md-7 ">
+                        <form>
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label class="">First name</label>
+                                <input class="form-control " type="text" placeholder="John">
+                              </div>
+                            </div>
+
+                            <div class="col-md-6">
+                              <div class="form-group">
+                                <label class="">Last name</label>
+                                <input class="form-control " type="text" placeholder="Doe">
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="form-group">
+                            <label class="">Your email</label>
+                            <input class="form-control " type="email" placeholder="johndoe@gmail.com">
+                          </div>
+
+                          <div class="form-group">
+                            <label class="">Phone number</label>
+                            <input class="form-control " type="tel" placeholder="+ (01) 222 33 44">
+                          </div>
+
+                          <div class="form-group">
+                            <label class="">Your message</label>
+                            <textarea class="form-control" rows="6" placeholder="Hi there, I would like to ..."></textarea>
+                          </div>
+                          <div class="">
+                            <button class="btn btn-success">
+                              Send Message
+                            </button>
+                          </div>
+                        </form>
+                      </div>
+
+
+                   </div>
+
+
+
+
+
+                 </div>
+
+
+               </div>
+            </div>
+         </section>
+      </div>
+
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="footer-top-text">
+                <h4>Get cute puppies in your inbox</h4>
+                <p>By providing my e-mail address, you can get notification</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="footer-top-form">
+                  <div class="email-form">
+                    <input type="text" class="form-control" placeholder="Email Address">
+                    <button class="btn btn-dark">Submit</button>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>About Zamba Dogs</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <p>
+                    We know your dogs mean a lot to you. That’s why we take the utmost care to ensure that our hosts will love them as much as you do.
+                    <a href="#">Read More..</a>
+                  </p>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Social Link</h4>
+                </div>
+                <div class="footer-column-content">
+
+                  <ul class="social-list">
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-facebook" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#">
+                        <i class="fa fa-pinterest-p" aria-hidden="true"></i>
+                      </a>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Important Links</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">About Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                      <a href="#">Careers</a>
+                    </li>
+                    <li>
+                      <a href="#">Read Our Blog</a>
+                    </li>
+                    <li>
+                      <a href="#">Book Host</a>
+                    </li>
+                    <li>
+                      <a href="#">Sit a Dog, Save a Life</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Legal</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Term of Use</a>
+                    </li>
+                    <li>
+                      <a href="#">Privacy Policy</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Need Help?</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <a href="#">Help Center</a>
+                    </li>
+                    <li>
+                      <a href="#">Faq</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-md-3">
+              <div class="footer-column">
+                <div class="footer-column-heading">
+                  <h4>Address</h4>
+                </div>
+                <div class="footer-column-content">
+                  <ul>
+                    <li>
+                      <p>Hobbes Dog Care Technologies Pvt. Ltd<br>
+                       A1-902, Uniworld City, Sector 30, <br>
+                      Gurgaon 122001</p>
+                    </li>
+                    <li>
+                      <p>
+                				<span class="blockd">+91 9600578072</span><br>
+                				<span class="blockd">woofcare@zambadogs.com</span><br>
+                				<span class="blockd">www.zambadogs.com</span>
+                			</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bootom text-center">
+          <p>© 2019 Zambadogs.com. All Rights Reserved.</p>
+        </div>
+      </footer>
+
+      <div data-moto-back-to-top-button class="moto-back-to-top-button">
+         <a href="#" ng-click="toTop($event)" class="moto-back-to-top-button-link">
+         <span class="moto-back-to-top-button-icon fa"></span>
+         </a>
+      </div>
+
+      <script src="./js/jquery.min.js"></script>
+      <script src="./js/bootstrap.bundle.min.js"></script>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEQX0HjabGKm-vcWbQ4-rLaWioMoJoP_Y"></script>
+      <script src="./js/snazzy-info-window.js"></script>
+      <script type="text/javascript">
+                // When the window has finished loading create our google map below
+                google.maps.event.addDomListener(window, 'load', init);
+
+                function init() {
+                    // Basic options for a simple Google Map
+                    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                    var mapOptions = {
+                        // How zoomed in you want the map to start at (always required)
+                        zoom: 17,
+
+                        // The latitude and longitude to center the map (always required)
+                        center: new google.maps.LatLng(28.4584, 77.0567,10), // New York
+
+                        // How you would like to style the map.
+                        // This is where you would paste any style found on Snazzy Maps.
+                        styles: [
+    {
+        "featureType": "water",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#aee2e0"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#abce83"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#769E72"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#7B8758"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#EBF4A4"
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            },
+            {
+                "color": "#8dab68"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#5B5B3F"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#ABCE83"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road.local",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#A4C67D"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#9BBF72"
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#EBF4A4"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "visibility": "on"
+            },
+            {
+                "color": "#87ae79"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "geometry.fill",
+        "stylers": [
+            {
+                "color": "#7f2200"
+            },
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "visibility": "on"
+            },
+            {
+                "weight": 4.1
+            }
+        ]
+    },
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#495421"
+            }
+        ]
+    },
+    {
+        "featureType": "administrative.neighborhood",
+        "elementType": "labels",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    }
+]
+                    };
+
+                    // Get the HTML DOM element that will contain your map
+                    // We are using a div with id="map" seen below in the <body>
+                    var mapElement = document.getElementById('map');
+
+                    // Create the Google Map using our element and options defined above
+                    var map = new google.maps.Map(mapElement, mapOptions);
+
+                    // Let's also add a marker while we're at it
+                    var marker = new google.maps.Marker({
+                        position: new google.maps.LatLng(28.4584, 77.0567,10),
+                        map: map,
+                        title: 'Hobbes Dog Care Technologies Pvt. Ltd'
+                    });
+
+                    var info = new SnazzyInfoWindow({
+                      marker: marker,
+                      content: 'Hobbes Dog Care Technologies Pvt. Ltd'
+                  });
+                  info.open();
+                }
+            </script>
+   </body>
+</html>
