@@ -241,7 +241,7 @@
 
                                     </div>
                                     <div class="book-appointment">
-                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#access-denied-modal">
                                         Send Enquiry
                                       </button>
                                     </div>
@@ -311,7 +311,7 @@
 
                                     </div>
                                     <div class="book-appointment">
-                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#myModal">
+                                      <button type="button" class="btn btn-success btn-block btn-sm" data-toggle="modal" data-target="#sucess-modal">
                                         Send Enquiry
                                       </button>
                                     </div>
@@ -873,6 +873,71 @@
       <script src="./js/jquery.min.js"></script>
       <script src="./js/bootstrap.bundle.min.js"></script>
       <script src="./js/sticky-sidebar.min.js"></script>
+
+
+      <!-- Modal -->
+    <div class="modal fade notification-modal " id="access-denied-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text-center">
+              <div class="icon-block red">
+                  <i class="fa fa-ban" aria-hidden="true"></i>
+              </div>
+
+              <div class="notification-text">
+                <h4>Access Denied</h4>
+                <span>You are not authorized to send Enquiry</span>
+              </div>
+
+              <div class="">
+                <button class="btn  btn-dark" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade notification-modal " id="sucess-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+          <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="text-center">
+              <div class="icon-block green">
+                  <i class="fa fa-check-circle-o" aria-hidden="true"></i>
+              </div>
+
+              <div class="notification-text">
+                <h4>Enquiry Send Sucessfully</h4>
+                <span>Your enquiry send sucessfully</span>
+              </div>
+
+              <div class="">
+                <button class="btn  btn-dark" data-dismiss="modal">Close</button>
+              </div>
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
 
       <script type="text/javascript">
 
