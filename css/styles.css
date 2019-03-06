@@ -1565,13 +1565,13 @@ h4 {
   counter-increment: moto-counter;
 }
 .moto-widget-menu-toggle-btn {
-  width: 40px;
-  height: 40px;
-  padding: 0 8px;
+    width: 40px;
+    padding: 8px 8px;
+    margin-top: 5px;
+    border-radius: 4px;
 }
 .moto-widget-menu-toggle-btn-icon {
   font-size: 24px;
-  line-height: 40px;
 }
 .moto-widget-menu-link {
   padding: 10px 20px;
@@ -3108,8 +3108,7 @@ h4 {
 .moto-widget-menu.moto-preset-default .moto-widget-menu-toggle-btn {
     color: #1f1e1e;
     background-color: #ffffff;
-    height: 54px;
-    line-height: 55px;
+    height: auto;
 }
 @media screen and (max-width: 767px) {
   .moto-widget-menu.moto-preset-default .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link-level-1{
