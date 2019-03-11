@@ -1531,6 +1531,54 @@ color: black;
 .wizard-section{
   display: flex;
 }
+.payment-container{
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px
+}
+.payment-container p {
+    font-size: 14px;
+    line-height: 24px;
+}
+.pay-btn-box {
+    margin-bottom: 22px;
+    text-align: center;
+}
+.payment-container h2 {
+    font-family: 'oswald';
+    margin-bottom: 16px;
+    color: #333a40;
+    font-weight: 300;
+}
+.payment-container h2 span {
+    font-weight: 500;
+}
+.pay-btn-box .pay-btn {
+    color: #2d3133;
+    background-color: #bcd977;
+    padding: 12px 13px;
+    font-size: 18px;
+    border: 1px solid #bcd977;
+    min-width: 192px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-family: oswald;
+}
+.pay-now-view{
+  max-width: 505px;
+  margin: 0 auto;
+}
+.payment-container .pay-icon{
+  margin-bottom: 10px;
+}
+.payment-container .pay-icon i{
+  font-size: 81px;
+    color: #333a40;
+}
+.payment-container .pay-icon.green i {
+    color: #bcd977;
+}
 @media (min-width: 768px) {
   table.dataTable {
     width: 100% !important;
