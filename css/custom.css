@@ -1628,6 +1628,20 @@ color: black;
   .toggled #page-content-wrapper {
     margin-left: 12rem
 }
+.signup-inner {
+    max-width: 100%;
+    flex-direction: column;
+}
+.signp-box {
+    margin: 7px 25px;
+    max-width: 100%;
+}
+.signup-container {
+    margin-top: 21px;
+}
+.banner-main {
+    padding-top: 91px;
+}
 }
 @media screen and (max-width: 767px) {
   .navigation .row > div{
