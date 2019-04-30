@@ -8,6 +8,32 @@
     background-attachment: fixed;
     padding-bottom: 40px;
 }
+.silder-header{
+  margin-top: -55px
+}
+.silder-header .silder-item {
+
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 0px;
+    min-height: 100vh;
+    background-attachment: fixed;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+.silder-header .silder-item .banner-main {
+    max-width: 700px;
+    margin: 0 auto;
+}
+.banner-btn .btn-lg{
+  font-family: 'oswald', display;
+}
+.banner-subtitle{
+  color: white;
+  font-size: 15px
+}
 .btn{
 
 }
@@ -33,8 +59,9 @@
 .logo-container {
     position: relative;
 }
-nav.navigation{
-  position: relative;
+nav.navigation {
+    position: relative;
+    z-index: 100;
 }
 nav.navigation.white-nav {
     border-bottom: 1px solid #dddddd;
@@ -283,11 +310,14 @@ nav.navigation.white-nav .moto-widget-menu ul.moto-widget-menu-list li a.moto-wi
 .section {
     border-bottom: 1px solid #f3f3f3;
 }
-.section.find-home{
-  background-image:url(./../images/find-home-bg.png);
-  background-position:center;
-  background-repeat:no-repeat;
-  background-size:cover;
+.section.find-home {
+    background-image: url(./../images/find-home-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 334px;
+    display: flex;
+    align-items: center;
 }
 .section.find-home .section-title h2{
   color: white
