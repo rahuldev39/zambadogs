@@ -12,20 +12,31 @@
   margin-top: -55px
 }
 .silder-header .silder-item {
-
-    background-position: right top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 0px;
     min-height: 100vh;
-    background-attachment: fixed;
-    padding-bottom: 40px;
-    display: flex;
-    align-items: center;
+}
+.silder-header .silder-item h1 {
+    font-size: 48px !important;
+}
+.silder-header .silder-item h1 span {
+    font-weight: lighter;
+    display: block;
+    font-size: 33px;
 }
 .silder-header .silder-item .banner-main {
-    max-width: 700px;
+    max-width: 650px;
     margin: 0 auto;
+    padding-top: 190px;
+}
+.carousel-item p {
+    display: inline-block;
+    background-color: #00000073;
+    font-size: 17px;
+    padding: 6px 32px;
+    border-radius: 20px;
+    opacity: .8;
+}
+.banner-btn {
+    margin-top: 24px;
 }
 .banner-btn .btn-lg{
   font-family: 'oswald', display;
@@ -315,7 +326,7 @@ nav.navigation.white-nav .moto-widget-menu ul.moto-widget-menu-list li a.moto-wi
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 334px;
+    min-height: 334px;
     display: flex;
     align-items: center;
 }
@@ -1622,7 +1633,29 @@ color: black;
     color: #bcd977;
 }
 .find-home .btn-container {
-    margin-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 29px;
+}
+.find-home .btn-container .btn {
+    padding: 30px 10px;
+}
+.booking-btn{
+  position: relative;
+}
+.booking-btn::after {
+    content: "Already Register";
+    position: absolute;
+    width: 100%;
+    top: -21px;
+    left: 0px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 11.5px;
+    opacity: .7;
 }
 @media (min-width: 768px) {
   table.dataTable {
@@ -1704,6 +1737,19 @@ color: black;
 }
 .wizard-wrapper {
     padding: 20px 20px;
+}
+}
+@media screen and (max-width: 514px) {
+  .find-home .btn-container {
+    flex-direction: column;
+}
+.find-home .btn-container .btn {
+    padding: 16px 10px;
+    margin-bottom: 8px;
+}
+.booking-btn {
+    position: relative;
+    margin-top: 27px !important;
 }
 }
 @media screen and (max-width: 480px) {
