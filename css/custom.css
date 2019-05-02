@@ -1657,6 +1657,24 @@ color: black;
     font-size: 11.5px;
     opacity: .7;
 }
+.banner-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 30px;
+}
+.banner-footer .banner-footer_item {
+    margin: 10px;
+}
+.banner-footer .banner-footer_item span {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+.banner-footer .banner-footer_item .btn {
+    font-size: 12px;
+}
 @media (min-width: 768px) {
   table.dataTable {
     width: 100% !important;
@@ -1710,6 +1728,21 @@ color: black;
 }
 }
 @media screen and (max-width: 767px) {
+  .silder-header .silder-item h1 {
+    font-size: 32px !important;
+}
+.silder-header .silder-item h1 span {
+    font-size: 18px;
+}
+.carousel-item p {
+    font-size: 13px;
+}
+.banner-btn .btn-lg {
+    font-size: 13px;
+}
+.silder-header .silder-item .banner-main {
+    padding-top: 135px;
+}
   .navigation .row > div{
     position: static;
   }
