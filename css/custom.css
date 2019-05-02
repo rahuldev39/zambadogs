@@ -1,18 +1,19 @@
 .header {
-    background-image: url(./../images/dog-bg.jpg);
+    background-image: url(./../images/slider-4.jpg);
     background-position: right top;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0px;
     min-height: 100vh;
     background-attachment: fixed;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+    position: relative;
 }
 .silder-header{
-  margin-top: -55px
+
 }
 .silder-header .silder-item {
-    min-height: 100vh;
+
 }
 .silder-header .silder-item h1 {
     font-size: 48px !important;
@@ -25,15 +26,16 @@
 .silder-header .silder-item .banner-main {
     max-width: 650px;
     margin: 0 auto;
-    padding-top: 190px;
+    padding-top: 127px;
 }
 .carousel-item p {
     display: inline-block;
     background-color: #00000073;
-    font-size: 17px;
+    font-size: 21px;
     padding: 6px 32px;
     border-radius: 20px;
     opacity: .8;
+    margin-top: 41px;
 }
 .banner-btn {
     margin-top: 24px;
@@ -1663,14 +1665,24 @@ color: black;
     justify-content: center;
     color: white;
     margin-top: 30px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    background-color: #00000021;
 }
 .banner-footer .banner-footer_item {
     margin: 10px;
+    border-right: 1px solid #f3f3f326;
+    padding-right: 20px;
+}
+.banner-footer .banner-footer_item:last-child{
+  border-right: 0px;
+  padding-right: 0px
 }
 .banner-footer .banner-footer_item span {
     font-size: 16px;
-    display: block;
-    margin-bottom: 5px;
+    margin-right: 15px;
 }
 .banner-footer .banner-footer_item .btn {
     font-size: 12px;
@@ -1729,19 +1741,19 @@ color: black;
 }
 @media screen and (max-width: 767px) {
   .silder-header .silder-item h1 {
-    font-size: 32px !important;
-}
-.silder-header .silder-item h1 span {
-    font-size: 18px;
-}
-.carousel-item p {
-    font-size: 13px;
-}
+      font-size: 40px !important;
+  }
+  .silder-header .silder-item h1 span {
+      font-size: 23px;
+  }
+  .carousel-item p {
+      font-size: 20px;
+  }
 .banner-btn .btn-lg {
     font-size: 13px;
 }
 .silder-header .silder-item .banner-main {
-    padding-top: 135px;
+    padding-top: 171px;
 }
   .navigation .row > div{
     position: static;
@@ -1783,6 +1795,23 @@ color: black;
 .booking-btn {
     position: relative;
     margin-top: 27px !important;
+}
+.silder-header .silder-item h1 {
+    font-size: 30px !important;
+}
+.silder-header .silder-item h1 span {
+    font-size: 20px;
+}
+.carousel-item p {
+    font-size: 17px;
+}
+.silder-header .silder-item .banner-main {
+    padding-top: 159px;
+}
+.banner-footer .banner-footer_item span {
+    margin-right: 0px;
+    margin-bottom: 6px;
+    display: block;
 }
 }
 @media screen and (max-width: 480px) {
