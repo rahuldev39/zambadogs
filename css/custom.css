@@ -1,6 +1,6 @@
 .header {
     background-image: url(./../images/slider-2.jpg);
-    background-position: right top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0px;
@@ -1743,6 +1743,9 @@ color: black;
 }
 }
 @media screen and (max-width: 767px) {
+  .header {
+      background-position: -174px;
+  }
   .silder-header .silder-item h1 {
       font-size: 40px !important;
   }
