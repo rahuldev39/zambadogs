@@ -12,6 +12,19 @@
 .header.light-bg-header{
   background-image: url(./../images/slider-light.jpg);
 }
+.header.light-bg-header::after {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #bad874b3;
+    left: 0px;
+    top: 0px;
+}
+.header.light-bg-header.silder-header .silder-item {
+    position: relative;
+    z-index: 1;
+}
 .header.light-bg-header .moto-widget-menu.moto-preset-default .moto-widget-menu-list .moto-widget-menu-item .moto-widget-menu-link-level-1 {
     color: #000;
 }
@@ -19,7 +32,7 @@
     color: #000000;
 }
 .header.light-bg-header .banner-footer {
-    background-color: #0000004a;
+    background-color: #00000096;
 }
 .header.light-bg-header .nav-btn {
     color: #92b346;
@@ -49,8 +62,8 @@
 }
 .carousel-item p {
     display: inline-block;
-    background-color: #00000073;
-    font-size: 21px;
+    background-color: #000000c9;
+    font-size: 20px;
     padding: 6px 32px;
     border-radius: 20px;
     opacity: .8;
@@ -1689,6 +1702,7 @@ color: black;
     width: 100%;
     left: 0px;
     background-color: #00000021;
+    z-index: 1;
 }
 .banner-footer .banner-footer_item {
     margin: 10px;
