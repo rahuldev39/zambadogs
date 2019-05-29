@@ -1,11 +1,10 @@
 .header {
     background-image: url(./../images/slider-2.jpg);
-    background-position: center;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0px;
     min-height: 100vh;
-    background-attachment: fixed;
     padding-bottom: 0px;
     position: relative;
 }
@@ -1773,13 +1772,13 @@ color: black;
     padding-top: 91px;
 }
 .header {
-    min-height: 560px;
+    min-height: 100vh;
 }
 }
 @media screen and (max-width: 767px) {
   .header {
-      background-position: -174px;
-  }
+    background-position: -79px;
+}
   .silder-header .silder-item h1 {
       font-size: 40px !important;
   }
@@ -1787,13 +1786,13 @@ color: black;
       font-size: 23px;
   }
   .carousel-item p {
-      font-size: 20px;
-  }
+    font-size: 14px;
+}
 .banner-btn .btn-lg {
     font-size: 13px;
 }
 .silder-header .silder-item .banner-main {
-    padding-top: 171px;
+    padding-top: 82px;
 }
   .navigation .row > div{
     position: static;
@@ -1825,6 +1824,11 @@ color: black;
 }
 }
 @media screen and (max-width: 514px) {
+  .header.light-bg-header {
+      background-image: url(./../images/slider-light-mobile.jpg);
+      background-position: left bottom;
+      background-attachment: inherit;
+  }
   .find-home .btn-container {
     flex-direction: column;
 }
@@ -1842,11 +1846,9 @@ color: black;
 .silder-header .silder-item h1 span {
     font-size: 20px;
 }
-.carousel-item p {
-    font-size: 17px;
-}
+
 .silder-header .silder-item .banner-main {
-    padding-top: 159px;
+    padding-top: 24%;
 }
 .banner-footer .banner-footer_item span {
     margin-right: 0px;
