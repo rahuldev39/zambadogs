@@ -47,7 +47,8 @@
 
 }
 .silder-header .silder-item h1 {
-    font-size: 48px !important;
+    font-size: 60px !important;
+    font-weight: 500;
 }
 .silder-header .silder-item h1 span {
     font-weight: lighter;
@@ -324,7 +325,7 @@ nav.navigation.white-nav .moto-widget-menu ul.moto-widget-menu-list li a.moto-wi
 }
 .section-title h2 {
     font-family: 'oswald', display;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 32px;
 }
 .btn-container{
@@ -1726,6 +1727,9 @@ color: black;
 }
 }
 @media (max-width: 992px) {
+  .silder-header .silder-item h1 {
+    font-size: 45px !important;
+}
   .listing-page {
       display: block;
   }
